@@ -11,9 +11,13 @@ While I know this sounds like the start to a poorly made sitcom filled with wack
 I had decided to make an infinite 'flyer.' First and foremost I had to make my protaganist move. Of course ChatGPT was my very first source.
 
 Now, I didn't just use AI to help code my game, no I went further than that. The main antagonist, of course coded with the help of ChatGPT, was a brand new image sourced from [Scenario.gg][Scenario.gg]. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used the little robots generator: 
+
 <img src="/assets/robotgen.png" height="226" width="219"> 
+
 The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generated the little guy that serves as the enemy. 
+
 <img src="/assets/enemy.png" height="225" width="225"> 
+
 After playing around with transparency and alpha channels in gimp, my antagonist was born.
 
 With some limited coding experience and an OpenAI account almost anyone could replicate my creation.
