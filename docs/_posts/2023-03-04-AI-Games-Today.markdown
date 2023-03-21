@@ -24,9 +24,13 @@ print_hi('Tom')
 
 You can find Cupids Rocket in my github, [repository][Cupid-Repo].
 
+
 <img src = "https://elijahtab.github.io/assets/images/bounds.png">
 
 <img src = "/assets/images/bounds.png">
+
+![useful image](https://elijahtab.github.io/assets/images/bounds.png)
+![useful image](/assets/images/bounds.png)
 
 [Cupid-Repo]: https://github.com/Elijahtab/Cupids-Rocket
 
