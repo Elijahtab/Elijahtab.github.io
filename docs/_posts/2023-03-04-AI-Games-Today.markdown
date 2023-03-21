@@ -2,7 +2,7 @@
 layout: post
 title:  "Making Games with AI"
 date:   2023-03-07 17:44:32 -0800
-categories: First Game, Second Game
+categories: First Game
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -22,8 +22,12 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+You can find Cupids Rocket in my github, [repository][Cupid-Repo].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src = "https://elijahtab.github.io/assets/images/bounds.png">
+
+<img src = "/assets/images/bounds.png">
+
+[Cupid-Repo]: https://github.com/Elijahtab/Cupids-Rocket
+
+
