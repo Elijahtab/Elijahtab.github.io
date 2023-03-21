@@ -19,18 +19,20 @@ def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+#=> prints 'Hi, Tom' to STDOUT. 
 {% endhighlight %}
+
+![useful image]({{ site.baseurl }}/assets/images/bounds.png)
 
 You can find Cupids Rocket in my github, [repository][Cupid-Repo].
 
 
 <img src = "https://elijahtab.github.io/assets/images/bounds.png">
 
-<img src = "/assets/images/bounds.png">
+<img src = "{{ site.baseurl }}/assets/images/bounds.png">
 
 ![useful image](https://elijahtab.github.io/assets/images/bounds.png)
-![useful image](/assets/images/bounds.png)
+
 
 [Cupid-Repo]: https://github.com/Elijahtab/Cupids-Rocket
 
