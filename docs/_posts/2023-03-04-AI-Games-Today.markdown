@@ -25,7 +25,7 @@ print_hi('Tom')
 
 You can find Cupids Rocket in my github, [repository][Cupid-Repo].
 
-<img src="/assets/bounds.png">
+<img src="/assets/bounds1.png">
 
 
 
