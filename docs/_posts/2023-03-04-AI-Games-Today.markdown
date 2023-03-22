@@ -98,13 +98,11 @@ public class PlayerController : MonoBehaviour
 }
 {% endhighlight %}
 
-This exact code can be found on my github, or right [here][Cupid-Repo].
-
-Then I had to constrain my player within the boundaries of the screen.  This was the response given by ChatGPT when asked, `How would I limit the player to the boundaries of the screen?` 
+This exact code can be found on my github, or right [here][Cupid-Repo]. Then I had to constrain my player within the boundaries of the screen.  This was the response given by ChatGPT when asked, `How would I limit the player to the boundaries of the screen?` 
 
 <img src="/assets/bounds1.png">
 
-This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game.
+This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game. 
 
 While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
 
@@ -136,7 +134,7 @@ This image can be seen as the background for the main menu in the game. I was ab
 
 <img src="/assets/blogcorrection2.png"> 
 
-After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. 
+After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. And just in time for Valentines day.
 
 
 But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid's Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by in this blog will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspiring glance into the future of game design and by extension of the world.
