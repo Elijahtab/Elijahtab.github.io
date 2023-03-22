@@ -106,9 +106,7 @@ Then I had to constrain my player within the boundaries of the screen.  This was
 
 This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game.
 
-
-
-While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn get across the screen and delete themselves. This was the hard part, while I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
+While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
 
 <img src="/assets/despawner1.png"> 
 
@@ -121,8 +119,6 @@ After getting the exact code and applying it to my quickly expanding game, I tes
 <img src="/assets/despawner3.png"> 
 
 This part truly bedazzled me. Because usually going through the ardous process of finding a stack exchange post that was related to my issue was in itself demoralising, and thats discounting actually fixing the problem itself. I was able to ask a simple question and get a simple response that was, almost, completely related to my query. And so, in no time my despawner was working perfectly well.
-
-
 
 Now, I didn't just use AI to help code my game, no, I went further than that. The main antagonist -- of course coded with the help of ChatGPT -- was a brand new image sourced from [Scenario.gg][Scenario.gg]. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator: 
 
@@ -139,6 +135,9 @@ After playing around with transparency and alpha channels in gimp, my antagonist
 This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for critique of the blog post:
 
 <img src="/assets/blogcorrection2.png"> 
+
+After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. 
+
 
 But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid's Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by in this blog will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspiring glance into the future of game design and by extension of the world.
 
