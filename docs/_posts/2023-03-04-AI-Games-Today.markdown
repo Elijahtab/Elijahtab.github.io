@@ -102,7 +102,7 @@ Then I had to constrain my player within the boundaries of the screen.  This was
 
 <img src="/assets/bounds1.png">
 
-This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script.
+This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself, you won't get the same answer as me, but I garantuee it will be one that can be implemented in a Unity game.
 
 While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff. In order for my vision to work I needed a way for my enemy sprites to spawn get across the screen and delete themselves. This was the hard part, while I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
 
@@ -126,18 +126,14 @@ The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generate
 
 <img src="/assets/enemy.png" height="225" width="225"> 
 
-After playing around with transparency and alpha channels in gimp, my antagonist was born. I was able to, with the help of AI, do the job of an artist myself.
+After playing around with transparency and alpha channels in gimp, my antagonist was born. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence,granted with my guidance and implementation, truly built this game. In fact, ChatGPT helped me write this blog. 
 
-But, its not all rainbows and sunshine. ChatGPT has its fair share of issues, asking it more complex questions yields more meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid's Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was awe-inspired by in this blog will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspriing glance into the future of game design and by extension the world.
-
-
-
-With some limited coding experience and an OpenAI account almost anyone could replicate my creation.
+But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid's Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by in this blog will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspriing glance into the future of game design and by extension of the world.
 
 
 
 
-Go try this out yourself, you won't get the same answer as me, but I garantuee it will be one that can be implemented in a Unity game.
+
 
 
 
