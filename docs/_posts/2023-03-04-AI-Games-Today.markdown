@@ -126,11 +126,11 @@ The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generate
 
 <img src="/assets/enemy.png" height="225" width="225"> 
 
-After playing around with transparency and alpha channels in gimp, my antagonist was born. Then I thought it might be nice to include the person this was all about, my girlfriend. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the AI. 
+After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the AI. 
 
- <img src="/assets/jj.jpg" height="228" width="171">  <img src="/assets/animegf.png" height="170" width="229">  
+ <img src="/assets/jj.jpg" height="228" width="171">  <img src="/assets/animegf.png" height="228" width="307">  
 
-This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for critique of the blog post:
+This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for a critique of the blog post:
 
 <img src="/assets/blogcorrection2.png"> 
 
