@@ -126,7 +126,7 @@ The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generate
 
 <img src="/assets/enemy.png" height="225" width="225"> 
 
-After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the AI. 
+After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the Stable Diffusion model. 
 
  <img src="/assets/jj.jpg" height="228" width="171">  <img src="/assets/animegf.png" height="228" width="307">  
 
