@@ -7,7 +7,7 @@ categories: First Game
 It's a quiet saturday and I'm studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types -- anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their chewing -- but something feels off, a foreboding feeling saturates the room. My worries are actualized with a slight ping -- a text from my girlfriend professing her excitement at the gift she's gotten me for Valentines day. Horror engulfs me. How could I have forgotten, Valentine's is only four days away and I have no gift at the ready. 
 
 
-While I know this sounds like the start to a poorly made sitcom filled with wacky antics, misplaced girlfriends and overdone tropes, it was actually the beginning of an interesting, and in my opinion astounding, journey. As I was mulling over the various cliche gifts I would have enough time to procure before that tuesday, a small, yet bright, lightbulb went off in my head. What if I made her a game? This is something I had wanted to do for a while, both to profess my love and to further my skills as a Game Designer. But I had been putting it off for a while. So I started. However, as anyone with a mild inclination towards making games knows it is can be a painstaking and long process, especially if you are inexperienced and need to constantly utilize Stack Exchange and whatever else google can provide you. This however was a high-stakes mission and I had limited time at my disposal. So I turned to ChatGPT which I had used successfully for advice in everything from coding, to debugging, to making gameobjects. This was the true beginning of my foray into the world of Artificial Intelligence aided Game Design.
+While I know this sounds like the start to a poorly made sitcom filled with wacky antics, misplaced girlfriends and overdone tropes, it was actually the beginning of an interesting, and in my opinion astounding, journey. As I was mulling over the various cliche gifts I would have enough time to procure before that tuesday, a small, yet bright, lightbulb went off in my head. What if I made her a game? This is something I had wanted to do for a while, both to profess my affection and to further my skills as a Game Designer. But I had been putting it off for a while. So I started. However, as anyone with a mild inclination towards making games knows it is can be a painstaking and long process, especially if you are inexperienced and need to constantly utilize Stack Exchange and whatever else google can provide you. This however was a high-stakes mission and I had limited time at my disposal. So I turned to ChatGPT which I had used successfully for advice in everything from coding, to debugging, to ordering gameobjects. This was the true beginning of my foray into the world of Artificial Intelligence aided Game Design.
 
 
 I had decided to make an infinite 'flyer.', Cupid's Arrow as I would come to call it. First and foremost I had to make my protaganist move. Of course ChatGPT was my very first source. The majority of this code was directly quoted from the chatbot. Throughout the creation process, I had to ask a variety of questions and piece together what I learned as well as the code provided.
@@ -102,13 +102,13 @@ This exact code can be found on my github, or right [here][Cupid-Repo]. Then I h
 
 <img src="/assets/bounds1.png">
 
-This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game. 
+This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script file. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game. 
 
 While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
 
 <img src="/assets/despawner1.png"> 
 
-While this was all useful information which helped jog my caffeine-addled college brain, I needed a bit more. So I asked for specifics.
+Although this was all useful information which helped jog my caffeine-addled college brain, I needed a bit more. So I asked for specifics.
 
 <img src="/assets/despawnerr2.png"> 
 
@@ -118,7 +118,7 @@ After getting the exact code and applying it to my quickly expanding game, I tes
 
 This part truly bedazzled me. Because usually going through the ardous process of finding a stack exchange post that was related to my issue was in itself demoralising, and thats discounting actually fixing the problem itself. I was able to ask a simple question and get a simple response that was, almost, completely related to my query. And so, in no time my despawner was working perfectly well.
 
-Now, I didn't just use AI to help code my game, no, I went further than that. The main antagonist -- of course coded with the help of ChatGPT -- was a brand new image sourced from [Scenario.gg][Scenario.gg]. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator: 
+Now, I didn't just use AI to help code my game, no, I went further than that. The main antagonist -- of course coded with the help of ChatGPT -- was a brand new image sourced from [Scenario.gg][Scenario.gg]. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator. 
 
 <img src="/assets/robotgen.png" height="226" width="219"> 
 
@@ -128,7 +128,7 @@ The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generate
 
 After playing around with transparency and alpha channels in gimp, my antagonist was born. Then I thought it might be nice to include the person this was all about, my girlfriend. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the AI. 
 
-<img src="/assets/animegf.png" height="229" width="170">
+<img src="/assets/animegf.png" height="170" width="229"> <img src="/assets/generator1.png.png"> 
 
 This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for critique of the blog post:
 
