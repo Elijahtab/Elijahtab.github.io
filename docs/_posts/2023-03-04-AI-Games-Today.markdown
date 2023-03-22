@@ -7,10 +7,10 @@ categories: First Game
 It's a quiet saturday and I'm studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types -- anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their chewing -- but something feels off, a foreboding feeling saturates the room. My worries are actualized with a slight ping -- a text from my girlfriend professing her excitement at the gift she's gotten me for Valentines day. Horror engulfs me. How could I have forgotten, Valentine's is only four days away and I have no gift at the ready. 
 
 
-While I know this sounds like the start to a poorly made sitcom filled with wacky antics, misplaced girlfriends and overdone tropes, it was actually the beginning of an interesting, and in my opinion astounding, journey. As I was mulling over the various cliche gifts I would have enough time to procure before that tuesday, a small, yet bright, lightbulb went off in my head. What of I made her a game? This is something I had wanted to do for a while, both to profess my love and to further my skills as a Game Designer. But I had been putting it off for a while. So I started. However, as anyone with a mild inclination towards making games knows it is can be a painstaking and long process, especially if you are inexperienced and need to constantly utilize Stack Exchange and whatever else google can provide you. This however was a high-stakes mission and I had limited time at my disposal. So I turned to ChatGPT which I had used successfully for advice in everything from coding, to debugging, to making gameobjects. This was the truely start of my foray into the world of Artificial Intelligence aided Game Design.
+While I know this sounds like the start to a poorly made sitcom filled with wacky antics, misplaced girlfriends and overdone tropes, it was actually the beginning of an interesting, and in my opinion astounding, journey. As I was mulling over the various cliche gifts I would have enough time to procure before that tuesday, a small, yet bright, lightbulb went off in my head. What if I made her a game? This is something I had wanted to do for a while, both to profess my love and to further my skills as a Game Designer. But I had been putting it off for a while. So I started. However, as anyone with a mild inclination towards making games knows it is can be a painstaking and long process, especially if you are inexperienced and need to constantly utilize Stack Exchange and whatever else google can provide you. This however was a high-stakes mission and I had limited time at my disposal. So I turned to ChatGPT which I had used successfully for advice in everything from coding, to debugging, to making gameobjects. This was the true beginning of my foray into the world of Artificial Intelligence aided Game Design.
 
 
-I had decided to make an infinite 'flyer.', Cupid's Arrow as I would come to call it. First and foremost I had to make my protaganist move. Of course ChatGPT was my very first source. The majority of this code was directly quoted from the chatbot. I had to ask a variety of different questions and throughout the process of the creation, piece together the things I learned and the code provided.
+I had decided to make an infinite 'flyer.', Cupid's Arrow as I would come to call it. First and foremost I had to make my protaganist move. Of course ChatGPT was my very first source. The majority of this code was directly quoted from the chatbot. Throughout the creation process, I had to ask a variety of questions and piece together what I learned as well as the code provided.
 
 {% highlight ruby %}
 public class PlayerController : MonoBehaviour
@@ -104,7 +104,7 @@ Then I had to constrain my player within the boundaries of the screen.  This was
 
 <img src="/assets/bounds1.png">
 
-This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself, you won't get the same answer as me, but I garantuee it will be one that can be implemented in a Unity game.
+This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game.
 
 
 
@@ -136,9 +136,9 @@ After playing around with transparency and alpha channels in gimp, my antagonist
 
 <img src="/assets/animegf.png" height="229" width="170">
 
-This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. 
+This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for critique of the blog post:
 
-
+<img src="/assets/blogcorrection2.png"> 
 
 But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid's Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by in this blog will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspiring glance into the future of game design and by extension of the world.
 
