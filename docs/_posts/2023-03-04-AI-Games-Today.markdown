@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI as the Future of Game Design"
+title:  "Is AI the Future of Game Design?"
 date:   2023-03-07 17:44:32 -0800
 categories: First Game
 ---
@@ -128,7 +128,7 @@ The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generate
 
 After playing around with transparency and alpha channels in gimp, my antagonist was born. Then I thought it might be nice to include the person this was all about, my girlfriend. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the AI. 
 
-<img src="/assets/animegf.png" height="170" width="229"> <img src="/assets/generator1.png"> 
+<img src="/assets/generator1.png"> <img src="/assets/animegf.png" height="170" width="229">  
 
 This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for critique of the blog post:
 
