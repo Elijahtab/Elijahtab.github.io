@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Conversing With Julius Caesar in Unity"
-date:   2023-09-19 17:44:32 -0800
-categories: First Game
+date:   2023-09-19 15:59:30 -0800
+categories: AI Conversation
 ---
 
 Have you ever wanted to have real a conversation with a non-playable character, to really feel immersed in the virtual world you're attempting to inhabit?
