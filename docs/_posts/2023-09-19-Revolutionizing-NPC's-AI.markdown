@@ -2,7 +2,7 @@
 layout: post
 title: "Revolutionizing NPC Interactions: The AI Frontier in Gaming"
 date: 2023-09-19 16:00:00 -0000
-categories: AI
+categories: AI, NPC, Games, Game Design
 ---
 Have you ever wanted to have a real conversation with a non-playable character, to truly feel a part of the world you experience through your computer screen. That isn’t far away, with the renaissance of AI we are currently living in, it’s only a matter of time before the likes of Rockstar and Ubisoft implement modern Language Model Models(LLMs) into their NPC structures. Instead of small prebuilt interactions with random passersby in Red Dead Redemption or Grand Theft Auto, the player could have hundreds or thousands of unique individualized interactions in a game world. Instead of being limited to the couple dozen base one liners the designers thought up, prompts describing the basics of an individual will be used to create limitless distinct conversations that will never happen again. Imagine riding around, finding a woman: Sophia, and exploring her lens on the game world you are inhabiting, her struggles with the industrialization and the cowboys turned bandits that you represent. That conversation can be as real as anything but a true human interaction. This would of course tamper with the pre-existing modes of storytelling in the video game industry, which revolves largely around pre-scripted events and dialogue. The designer who manages to create true interesting storylines based around AI would create something truly groundbreaking.
 
