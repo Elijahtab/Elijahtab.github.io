@@ -16,7 +16,7 @@ I wanted to explore this realm of Artificial Intelligence myself, with the event
 
 <img src="/assets/openAI1.png" height="134" width="512"> 
 
- You’re provided with an API key which gives you access to the API itself and is billed based on usage. This is actually an issue for creating marketable games with the API as your key both needs to be hidden, so as not to be the victim of theft, but also accessible for each user. However, I didn’t have to worry about that for this test run so I just used an environmental variable stored on my personal computer
+ You’re provided with an API key which gives you access to the API itself and is billed based on usage. This is actually an issue for creating marketable games with the API as your key both needs to be hidden, so as not to be the victim of theft, but also accessible for each user. However, I didn’t have to worry about that for this test run so I just used an environmental variable stored on my personal computer. This can be achieved by typing in, "Edit Environmental Variables" in your windows search bar and then, after reaching the variable menu, clicking new, the title should be "OPENAI_API_KEY" and the value your API key.
 
  {% highlight ruby %}
 
