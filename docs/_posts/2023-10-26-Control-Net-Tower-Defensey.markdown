@@ -52,7 +52,7 @@ Which gave me this result, which I thought was pretty cool and I ended up using 
 
 <img src="/assets/scribble2.png" height="540" width="960"> 
 
-<img src="/assets/InGameScribble.png" height="540" width="960"> 
+<img src="/assets/InGameScribble.png" height="536" width="960"> 
 
 
 
