@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unleashing the Power of Generative AI: Crafting Tower Defense Game Maps with Stable Diffusion"
-date: 2023-09-27 8:00:00 -0000
+date: 2023-10-26 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
 
