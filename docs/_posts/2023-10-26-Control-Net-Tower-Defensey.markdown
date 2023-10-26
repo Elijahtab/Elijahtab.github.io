@@ -23,26 +23,36 @@ After getting all of this set up, I decided to check out my general idea. Which 
 
 First I tried doing scribble mode which was suggested on some message boards and articles as a better alternative to Canny as it allowed for more fuzziness around the edges, literally and figuratively, giving the AI more leeway as well as providing a less rigid image from which to work with. However, the result was not always perfect. I definitely had to play with the prompt a bit, different types of prompts(industrial, desert, castle) had different needs, so I had to customize the prompts a bit adding different levels of ‘top down view’ or whatever that specific prompt needed. However, what I found was that using different models of control-net could yield various results that the user was looking for. So using scribble gave you more of a fluid image, while canny gave you a very rigid non-unique look, finally depth worked better sometimes than others, but definitely gave interesting backgrounds with obviously more depth.
 
-Scribble Image
-Using scribble
 
-Canny Image
-Using canny
+Image I got using Scribble:
+<img src="/assets/scribble1.png" height="960" width="540"> 
 
-Depth Image
-Using depth
+
+
+Image I got using Canny:
+<img src="/assets/canny1.png" height="960" width="540"> 
+
+
+Image I got using Depth:
+<img src="/assets/depth1.png" height="960" width="540"> 
+
+
 
 I found that I had no favorite model as other bloggers mentioned, for me scribble, depth and canny all provided good results at different points and could be used to attain similar yet distinct backgrounds. Although scribble was by far the least dependable, having small defects and a lack of straight paths. After doing some exploring I managed to find the image that control-net uses as a base and that told me everything I needed to know about why scribble was so inaccurate:
 
-Scribble background image
+<img src="/assets/stablDiffBackground5.png" height="960" width="540"> 
+
 
 However, after some experimenting I realized that the power of the scribble was that it was designed to create images from meandering lines such as the one shown below:
 
-Stable diff background 4
+<img src="/assets/StableDiffBackground4.png" height="960" width="540"> 
+
 
 Which gave me this result, which I thought was pretty cool and I ended up using it in the game itself:
 
-Scribble 2 
+<img src="/assets/scribble2.png" height="960" width="540"> 
+
+<img src="/assets/InGameScribble.png" height="960" width="540"> 
 
 
 
