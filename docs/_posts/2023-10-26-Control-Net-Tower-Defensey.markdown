@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI-Powered NPCs: Shaping the Future of Gaming"
+title: "Unleashing the Power of Generative AI: Crafting Tower Defense Game Maps with Stable Diffusion"
 date: 2023-09-27 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
