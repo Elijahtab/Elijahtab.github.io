@@ -18,7 +18,7 @@ And you can even increase the density of the trees, with up to 15,000 trees befo
 There's also grass, although it is not based around chunks because grass is kind of everywhere, foliage is less chunkable, let's put it that way.
 <img src="/assets/Terrain1.png" height="390" width="956"> 
 
-
+Overall working on this has been super fun and I want explore making nature in virtual worlds more.
 
 
 [here]: https://github.com/Elijahtab/Real-Time-Strategy-Demo
