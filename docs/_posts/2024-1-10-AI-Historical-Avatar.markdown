@@ -10,15 +10,15 @@ The world is surely going to be changed by Artificial Intelligence, that’s cle
 
 Now to get into the more technical aspects, around how I actually made the demo and the way that it is surrounded by AI:
 
-1. OpenAI Integration for Personality Emulation: 
+ 1. OpenAI Integration for Personality Emulation: 
 
 The centerpiece of the project was the integration of an OpenAI assistant, tailored to reflect JFK's intellectual and speech patterns. To achieve this, we immersed the AI in a wealth of JFK’s writings, speeches, and public records. The AI, trained on this extensive dataset, was able to generate responses that were in JFK's style of speech but also in our opinion represented roughly his ideological and political views, obviously with heavy caveats.
 
-2. Speech Synthesis and Visual Representation: 
+ 2. Speech Synthesis and Visual Representation: 
 
 ElevenLabs’ speech synthesis technology played a pivotal role in this project. It analyzed JFK’s speech patterns to create a realistic vocal model. This model could articulate any given text in JFK’s distinctive voice, adding a layer of authenticity to the AI. Complementing the voice, I created a digital video portrait of JFK. This was meant to provide a responsive face that could articulate and express in sync with the AI’s responses, creating a relatively lifelike avatar of JFK.
 
-3. Speech Recognition and AI Interaction:
+ 3. Speech Recognition and AI Interaction:
 
 While this step remains theoretical it is a necessary precondition to creating a real interactable historical avatar and any future project would entail the creation of such a system.
 
