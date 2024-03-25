@@ -19,8 +19,8 @@ There's also grass, although it is not based around chunks because grass is kind
 <img src="/assets/Terrain5.png" height="966" width="1912"> 
 
 
-https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
 
 
-[here]: https://drive.google.com/file/d/1zJehpogrUMb-EsLDKMKmc5iFWNlGiftH/view?usp=sharing 
-[right here]: https://drive.google.com/file/d/1t2uB2HAs40cONk249_zMvTMVLZGMU1tx/view?usp=sharing
+[here]: https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+
+
