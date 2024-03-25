@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reviving History: The Integration of AI in Recreating Iconic Personalities"
-date: 2024-01-20 8:00:00 -0000
+date: 2024-01-10 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
 Reviving History: The Integration of AI in Recreating Iconic Personalities
