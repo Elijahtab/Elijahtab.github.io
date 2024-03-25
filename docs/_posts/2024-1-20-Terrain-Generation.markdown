@@ -22,6 +22,6 @@ There's also grass, although it is not based around chunks because grass is kind
 
 
 [here]: https://github.com/Elijahtab/Real-Time-Strategy-Demo
-[linked here][linked here]: https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+[linked here]: https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
 
 
