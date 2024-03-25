@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reviving History: The Integration of AI in Recreating Iconic Personalities"
+title: "Procedural Terrain and Foliage Generation in Unity"
 date: 2024-01-20 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
