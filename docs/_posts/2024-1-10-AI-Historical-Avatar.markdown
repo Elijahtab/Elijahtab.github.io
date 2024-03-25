@@ -4,7 +4,7 @@ title: "Reviving History: The Integration of AI in Recreating Iconic Personaliti
 date: 2023-10-26 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
-Title: Reviving History: The Integration of AI in Recreating Iconic Personalities
+Reviving History: The Integration of AI in Recreating Iconic Personalities
 
 The world is surely going to be changed by Artificial Intelligence, that’s clear to anyone in or outside of the computer related fields. As with any technology it’s going to get better and better but even what we have is quite amazing. I think at this stage like the .com era there’s going to be a rush to combine various AI-fueled technologies in order to create new products and synthesize what's quickly advancing in LLM’s, and really anything related to AI. And that's something that I have long been wanting to get into. Specifically the fusion of various forms of Artificial Intelligences and tools surrounding them to create something related to history, my favorite non-tech academic field. I was given the opportunity to work with some of my peers this quarter on just such a project. Our goal was to produce a very rough draft of what a talking, emoting, intelligent character could look like through a historic lens. We chose to focus on JFK due to the reservoir of audio and video images of him as well as his unique style of dictation; additionally, this wealth of digital information is coupled with the fact that he is very much a historic character in our shared imagination, at least in the United States, which makes him a good starting point. You can check out our demo [here][here], note that there is no speech recognition in this demonstration there are preloaded questions. You can also find our pitch [right here][right here].
 
