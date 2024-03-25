@@ -11,12 +11,12 @@ This is the most important part of the script: what it does is take in another n
 You can see the chunks are variable and can be completely randomized, like the rest of the generation.
 <img src="/assets/Terrain1.png" height="390" width="956"> 
 You can make them larger
-<img src="/assets/Terrain1.png" height="390" width="956"> 
+<img src="/assets/Terrain2.png" height="390" width="956"> 
 And you can even increase the density of the trees, with up to 15,000 trees before you start noticing and lag, at least on my rig. I was able to achieve this by combining Unity’s built-in tree generation software with the LOD to create a fairly seamless transition. 
-<img src="/assets/Terrain1.png" height="390" width="956"> 
-<img src="/assets/Terrain1.png" height="390" width="956"> 
+<img src="/assets/Terrain3.png" height="390" width="956"> 
+<img src="/assets/Terrain4.png" height="390" width="956"> 
 There's also grass, although it is not based around chunks because grass is kind of everywhere, foliage is less chunkable, let's put it that way.
-<img src="/assets/Terrain1.png" height="390" width="956"> 
+<img src="/assets/Terrain5.png" height="390" width="956"> 
 
 Overall working on this has been super fun and I want explore making nature in virtual worlds more.
 
