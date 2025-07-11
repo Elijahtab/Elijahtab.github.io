@@ -1,0 +1,9 @@
+- title: AI Avatar with OpenAI
+  description: Real-time voice-interactive avatar with Flask, Azure, and LLaMA.
+  image: /assets/avatar.png
+  link: https://github.com/elijahtab/ai-avatar
+
+- title: Drone Pathing with YOLOv8
+  description: Autonomous drone project using Tello SDK and visual input.
+  image: /assets/drone.png
+  link: https://github.com/elijahtab/drone-pathing

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Is AI the Future of Game Design? | Elijah's Blog</title>
+
+    <!-- Minima core -->
+    <link rel="stylesheet" href="/assets/main.css">
+    <!-- Your overrides -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="/">Elijah's Blog</a>
+
+        <nav class="site-nav">
+            <a href="/">Home</a>
+          <a href="/projects/">Portfolio</a>
+          <a href="/about/">About</a>
+          <a href="/blog/">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Is AI the Future of Game Design?</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-03-07T17:44:32-08:00" itemprop="datePublished">Mar 7, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>It’s a quiet saturday and I’m studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types – anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their chewing – but something feels off, a foreboding feeling saturates the room. My worries are actualized with a slight ping – a text from my girlfriend professing her excitement at the gift she’s gotten me for Valentines day. Horror engulfs me. How could I have forgotten, Valentine’s is only four days away and I have no gift at the ready.</p>
+
+<p>While I know this sounds like the start to a poorly made sitcom filled with wacky antics, misplaced girlfriends and overdone tropes, it was actually the beginning of an interesting, and in my opinion astounding, journey. As I was mulling over the various cliche gifts I would have enough time to procure before that tuesday, a small, yet bright, lightbulb went off in my head. What if I made her a game? This is something I had wanted to do for a while, both to profess my affection and to further my skills as a Game Designer. But I had been putting it off for a while. So I started. However, as anyone with a mild inclination towards making games knows it is can be a painstaking and long process, especially if you are inexperienced and need to constantly utilize Stack Exchange and whatever else google can provide you. This however was a high-stakes mission and I had limited time at my disposal. So I turned to ChatGPT which I had used successfully for advice in everything from coding, to debugging, to ordering gameobjects. This was the true beginning of my foray into the world of Artificial Intelligence aided Game Design.</p>
+
+<p>I had decided to make an infinite ‘flyer.’, Cupid’s Arrow as I would come to call it. First and foremost I had to make my protaganist move. Of course ChatGPT was my very first source. The majority of this code was directly quoted from the chatbot. Throughout the creation process, I had to ask a variety of questions and piece together what I learned as well as the code provided.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="kp">public</span> <span class="k">class</span> <span class="nc">PlayerController</span> <span class="p">:</span> <span class="no">MonoBehaviour</span>
+<span class="p">{</span>
+    <span class="kp">public</span> <span class="n">float</span> <span class="n">moveSpeed</span> <span class="o">=</span> <span class="mi">5</span><span class="n">f</span><span class="p">;</span>
+
+    <span class="kp">private</span> <span class="no">Rigidbody2D</span> <span class="n">rb</span><span class="p">;</span>
+    <span class="kp">private</span> <span class="n">float</span> <span class="n">minX</span><span class="p">,</span> <span class="n">maxX</span><span class="p">,</span> <span class="n">minY</span><span class="p">,</span> <span class="n">maxY</span><span class="p">;</span>
+    <span class="kp">public</span> <span class="n">int</span> <span class="n">health</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+
+    <span class="kp">public</span> <span class="no">GameObject</span> <span class="n">bulletPrefab</span><span class="p">;</span>
+    <span class="kp">public</span> <span class="n">float</span> <span class="n">bulletSpeed</span> <span class="o">=</span> <span class="mi">10</span><span class="n">f</span><span class="p">;</span>
+    <span class="p">[</span><span class="no">SerializeField</span><span class="p">]</span> <span class="kp">public</span> <span class="n">float</span> <span class="n">bulletTimer</span><span class="p">;</span>
+
+    <span class="kp">public</span> <span class="no">BulletBar</span> <span class="n">bulletBar</span><span class="p">;</span>
+    <span class="kp">public</span> <span class="no">HealthBar</span> <span class="n">healthBar</span><span class="p">;</span>
+
+    <span class="kp">public</span> <span class="no">PauseScript</span> <span class="n">pauseScript</span><span class="p">;</span>
+    <span class="kp">public</span> <span class="no">GameObject</span> <span class="n">gameOverPrefab</span><span class="p">;</span>
+
+    <span class="kp">private</span> <span class="n">void</span> <span class="no">Start</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">rb</span> <span class="o">=</span> <span class="no">GetComponent</span><span class="o">&lt;</span><span class="no">Rigidbody2D</span><span class="o">&gt;</span><span class="p">();</span>
+        <span class="no">Camera</span> <span class="n">mainCamera</span> <span class="o">=</span> <span class="no">Camera</span><span class="p">.</span><span class="nf">main</span><span class="p">;</span>
+        <span class="no">Vector2</span> <span class="n">screenBounds</span> <span class="o">=</span> <span class="n">mainCamera</span><span class="o">.</span><span class="no">ScreenToWorldPoint</span><span class="p">(</span><span class="n">new</span> <span class="no">Vector3</span><span class="p">(</span><span class="no">Screen</span><span class="p">.</span><span class="nf">width</span><span class="p">,</span> <span class="no">Screen</span><span class="p">.</span><span class="nf">height</span><span class="p">,</span> <span class="n">mainCamera</span><span class="p">.</span><span class="nf">transform</span><span class="p">.</span><span class="nf">position</span><span class="p">.</span><span class="nf">z</span><span class="p">));</span>
+        <span class="n">minX</span> <span class="o">=</span> <span class="o">-</span><span class="n">screenBounds</span><span class="p">.</span><span class="nf">x</span> <span class="o">+</span> <span class="n">transform</span><span class="p">.</span><span class="nf">localScale</span><span class="p">.</span><span class="nf">x</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="n">maxX</span> <span class="o">=</span> <span class="n">screenBounds</span><span class="p">.</span><span class="nf">x</span> <span class="o">-</span> <span class="n">transform</span><span class="p">.</span><span class="nf">localScale</span><span class="p">.</span><span class="nf">x</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="n">minY</span> <span class="o">=</span> <span class="o">-</span><span class="n">screenBounds</span><span class="p">.</span><span class="nf">y</span> <span class="o">+</span> <span class="n">transform</span><span class="p">.</span><span class="nf">localScale</span><span class="p">.</span><span class="nf">y</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="n">maxY</span> <span class="o">=</span> <span class="n">screenBounds</span><span class="p">.</span><span class="nf">y</span> <span class="o">-</span> <span class="n">transform</span><span class="p">.</span><span class="nf">localScale</span><span class="p">.</span><span class="nf">y</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+
+        <span class="n">pauseScript</span> <span class="o">=</span> <span class="no">GameObject</span><span class="o">.</span><span class="no">Find</span><span class="p">(</span><span class="s2">"GameController"</span><span class="p">)</span><span class="o">.</span><span class="no">GetComponent</span><span class="o">&lt;</span><span class="no">PauseScript</span><span class="o">&gt;</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="kp">private</span> <span class="n">void</span> <span class="no">Update</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">float</span> <span class="n">horizontal</span> <span class="o">=</span> <span class="no">Input</span><span class="o">.</span><span class="no">GetAxis</span><span class="p">(</span><span class="s2">"Horizontal"</span><span class="p">);</span>
+        <span class="n">float</span> <span class="n">vertical</span> <span class="o">=</span> <span class="no">Input</span><span class="o">.</span><span class="no">GetAxis</span><span class="p">(</span><span class="s2">"Vertical"</span><span class="p">);</span>
+
+        <span class="no">Vector2</span> <span class="n">movement</span> <span class="o">=</span> <span class="n">new</span> <span class="no">Vector2</span><span class="p">(</span><span class="n">horizontal</span><span class="p">,</span> <span class="n">vertical</span><span class="p">);</span>
+
+        <span class="sr">//</span> <span class="no">Clamp</span> <span class="n">the</span> <span class="n">position</span> <span class="n">to</span> <span class="n">the</span> <span class="n">screen</span> <span class="n">bounds</span>
+        <span class="no">Vector3</span> <span class="n">newPosition</span> <span class="o">=</span> <span class="n">transform</span><span class="p">.</span><span class="nf">position</span> <span class="o">+</span> <span class="p">(</span><span class="no">Vector3</span><span class="p">)</span><span class="n">movement</span> <span class="o">*</span> <span class="n">moveSpeed</span> <span class="o">*</span> <span class="no">Time</span><span class="p">.</span><span class="nf">deltaTime</span><span class="p">;</span>
+        <span class="n">newPosition</span><span class="p">.</span><span class="nf">x</span> <span class="o">=</span> <span class="no">Mathf</span><span class="o">.</span><span class="no">Clamp</span><span class="p">(</span><span class="n">newPosition</span><span class="p">.</span><span class="nf">x</span><span class="p">,</span> <span class="n">minX</span><span class="p">,</span> <span class="n">maxX</span><span class="p">);</span>
+        <span class="n">newPosition</span><span class="p">.</span><span class="nf">y</span> <span class="o">=</span> <span class="no">Mathf</span><span class="o">.</span><span class="no">Clamp</span><span class="p">(</span><span class="n">newPosition</span><span class="p">.</span><span class="nf">y</span><span class="p">,</span> <span class="n">minY</span><span class="p">,</span> <span class="n">maxY</span><span class="p">);</span>
+        <span class="n">transform</span><span class="p">.</span><span class="nf">position</span> <span class="o">=</span> <span class="n">newPosition</span><span class="p">;</span>
+
+        <span class="n">rb</span><span class="p">.</span><span class="nf">velocity</span> <span class="o">=</span> <span class="no">Vector2</span><span class="p">.</span><span class="nf">zero</span><span class="p">;</span>
+
+        <span class="sr">//</span> <span class="no">Point</span> <span class="n">at</span> <span class="n">pointer</span>
+        <span class="no">Vector3</span> <span class="n">mousePosition</span> <span class="o">=</span> <span class="no">Camera</span><span class="p">.</span><span class="nf">main</span><span class="o">.</span><span class="no">ScreenToWorldPoint</span><span class="p">(</span><span class="no">Input</span><span class="p">.</span><span class="nf">mousePosition</span><span class="p">);</span>
+        <span class="no">Vector2</span> <span class="n">direction</span> <span class="o">=</span> <span class="n">mousePosition</span> <span class="o">-</span> <span class="n">transform</span><span class="p">.</span><span class="nf">position</span><span class="p">;</span>
+        <span class="n">transform</span><span class="p">.</span><span class="nf">up</span> <span class="o">=</span> <span class="n">direction</span><span class="p">;</span>
+
+        <span class="sr">//</span> <span class="no">Bullet</span> <span class="n">velocity</span>
+        <span class="k">if</span> <span class="p">((</span><span class="no">Input</span><span class="o">.</span><span class="no">GetMouseButtonDown</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span> <span class="o">&amp;&amp;</span> <span class="p">(</span> <span class="n">bulletTimer</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="n">f</span><span class="p">))</span>
+        <span class="p">{</span>
+            <span class="no">GameObject</span> <span class="n">newBullet</span> <span class="o">=</span> <span class="no">Instantiate</span><span class="p">(</span><span class="n">bulletPrefab</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="nf">position</span><span class="p">,</span> <span class="no">Quaternion</span><span class="p">.</span><span class="nf">identity</span><span class="p">);</span>
+            <span class="no">Rigidbody2D</span> <span class="n">bulletRigidbody</span> <span class="o">=</span> <span class="n">newBullet</span><span class="o">.</span><span class="no">GetComponent</span><span class="o">&lt;</span><span class="no">Rigidbody2D</span><span class="o">&gt;</span><span class="p">();</span>
+            <span class="n">bulletRigidbody</span><span class="p">.</span><span class="nf">velocity</span> <span class="o">=</span> <span class="n">direction</span><span class="p">.</span><span class="nf">normalized</span> <span class="o">*</span> <span class="n">bulletSpeed</span><span class="p">;</span>
+            <span class="n">bulletTimer</span> <span class="o">=</span> <span class="mi">1</span><span class="n">f</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">bulletTimer</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="n">f</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">bulletTimer</span> <span class="o">-=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">deltaTime</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">bulletBar</span><span class="o">.</span><span class="no">SetBulletBar</span><span class="p">(</span><span class="n">bulletTimer</span><span class="p">);</span>
+
+
+    <span class="p">}</span>
+    <span class="n">void</span> <span class="no">OnTriggerEnter2D</span><span class="p">(</span><span class="no">Collider2D</span> <span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="sr">//</span> <span class="no">Check</span> <span class="k">if</span> <span class="n">the</span> <span class="n">other</span> <span class="no">GameObject</span> <span class="n">is</span> <span class="n">an</span> <span class="n">enemy</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="nf">gameObject</span><span class="o">.</span><span class="no">CompareTag</span><span class="p">(</span><span class="s2">"Enemy"</span><span class="p">))</span>
+        <span class="p">{</span>
+            <span class="n">health</span> <span class="o">-=</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="n">healthBar</span><span class="o">.</span><span class="no">SetHealthBar</span><span class="p">(</span><span class="n">health</span><span class="p">);</span>
+            <span class="no">Destroy</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="nf">gameObject</span><span class="p">);</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">health</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">pauseScript</span><span class="o">.</span><span class="no">PauseGame</span><span class="p">();</span>
+                <span class="no">GameObject</span> <span class="n">gameOver</span> <span class="o">=</span> <span class="no">Instantiate</span><span class="p">(</span><span class="n">gameOverPrefab</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>This exact code can be found on my github, or right <a href="https://github.com/Elijahtab/Cupids-Rocket">here</a>. Then I had to constrain my player within the boundaries of the screen.  This was the response given by ChatGPT when asked, <code class="language-plaintext highlighter-rouge">How would I limit the player to the boundaries of the screen?</code></p>
+
+<p><img src="/assets/bounds1.png" /></p>
+
+<p>This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script file. Go try this out yourself. You won’t get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game.</p>
+
+<p>While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.</p>
+
+<p><img src="/assets/despawner1.png" /></p>
+
+<p>Although this was all useful information which helped jog my caffeine-addled college brain, I needed a bit more. So I asked for specifics.</p>
+
+<p><img src="/assets/despawnerr2.png" /></p>
+
+<p>After getting the exact code and applying it to my quickly expanding game, I tested the despawner. Unfortunately it didn’t work, usually this would mean a long search involving google, stack exchange, discord and whatever else I could get my hands on. But why would I do that when GPT-3 was right there at my disposal? A simple question later, as well as some testing and my issues were solved.</p>
+
+<p><img src="/assets/despawner3.png" /></p>
+
+<p>This part truly bedazzled me. Because usually going through the ardous process of finding a stack exchange post that was related to my issue was in itself demoralising, and thats discounting actually fixing the problem itself. I was able to ask a simple question and get a simple response that was, almost, completely related to my query. And so, in no time my despawner was working perfectly well.</p>
+
+<p>Now, I didn’t just use AI to help code my game, no, I went further than that. The main antagonist – of course coded with the help of ChatGPT – was a brand new image sourced from <a href="https://www.scenario.com/">Scenario.gg</a>. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator.</p>
+
+<p><img src="/assets/robotgen.png" height="226" width="219" /></p>
+
+<p>The prompt I used was <code class="language-plaintext highlighter-rouge">Little Robots, Evil robot, Flying, wings</code>, which generated this little guy.</p>
+
+<p><img src="/assets/enemy.png" height="225" width="225" /></p>
+
+<p>After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the Stable Diffusion model.</p>
+
+<p><img src="/assets/jj.jpg" height="228" width="171" />  <img src="/assets/animegf.png" height="228" width="307" /></p>
+
+<p>This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for a critique of the blog post:</p>
+
+<p><img src="/assets/blogcorrection2.png" /></p>
+
+<p>After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. And just in time for Valentines day.</p>
+
+<p><img src="/assets/gamegif.gif" /></p>
+
+<p>But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid’s Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by during the creation of this game will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspiring glance into the future of game design and by extension of the world.</p>
+
+
+  </div><a class="u-url" href="/first/game/2023/03/07/AI-Games-Today.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        &copy; 2025 Elijah's Blog
+      </div>
+    </footer>
+  </body>
+</html>

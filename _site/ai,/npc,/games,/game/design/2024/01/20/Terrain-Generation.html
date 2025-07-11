@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Procedural Terrain and Foliage Generation in Unity | Elijah's Blog</title>
+
+    <!-- Minima core -->
+    <link rel="stylesheet" href="/assets/main.css">
+    <!-- Your overrides -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="/">Elijah's Blog</a>
+
+        <nav class="site-nav">
+            <a href="/">Home</a>
+          <a href="/projects/">Portfolio</a>
+          <a href="/about/">About</a>
+          <a href="/blog/">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Procedural Terrain and Foliage Generation in Unity</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-01-20T00:00:00-08:00" itemprop="datePublished">Jan 20, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Lately I’ve been exploring the use of terrain generation for strategy game implementations. Specifically I’ve worked off of tutorials online about terrain generation to create a procedural terrain+foliage generator using perlin noise. You can find the project <a href="https://github.com/Elijahtab/Real-Time-Strategy-Demo">here</a>. The basic setup is to create a noise map using perlin noise and then convert it into whatever you need from there, so a height map and a texture map. For this first part I used parts of Sebastian Lague’s tutorial on the subject <a href="https://www.youtube.com/watch?v=wbpMiKiSKm8&amp;list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3">linked here</a>. And from there I added an additional noise map for the tree chunks, so that the trees weren’t random but followed a forest-like configuration.The code itself doesn’t really make too much sense out of context so I’ll explain the important part and if you’re curious to explore more you can find the ‘ObjectGenerator’ script that does most of the heavy lifting.</p>
+
+<p>This is the most important part of the script: what it does is take in another noise map that was created and superimposes it on top of the height requirements of the original noisemap(which basically delineates where the water, grass and mountains start/end). So the superimposed noise map creates chunks of forest which can be manipulated by the treeChunkSize variable.</p>
+
+<p>You can see the chunks are variable and can be completely randomized, like the rest of the generation.
+<img src="/assets/Terrain1.png" height="390" width="956" /> 
+You can make them larger
+<img src="/assets/Terrain2.png" height="390" width="956" /> 
+And you can even increase the density of the trees, with up to 15,000 trees before you start noticing lag, at least on my computer. I was able to achieve this by combining Unity’s built-in tree generation software with the LOD to create a fairly seamless transition. 
+<img src="/assets/Terrain3.png" height="390" width="956" /> 
+<img src="/assets/Terrain4.png" height="390" width="956" /> 
+There’s also grass, although it is not based around chunks because grass is kind of everywhere, foliage is less chunkable, let’s put it that way.
+<img src="/assets/Terrain5.png" height="390" width="956" /></p>
+
+<p>Overall working on this has been super fun and I want explore making nature in virtual worlds more.</p>
+
+
+  </div><a class="u-url" href="/ai,/npc,/games,/game/design/2024/01/20/Terrain-Generation.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        &copy; 2025 Elijah's Blog
+      </div>
+    </footer>
+  </body>
+</html>
