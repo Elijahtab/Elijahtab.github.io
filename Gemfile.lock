@@ -304,6 +304,12 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
+  jekyll-include-cache
+  jekyll-paginate
+  jekyll-remote-theme
+  jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    2.6.9

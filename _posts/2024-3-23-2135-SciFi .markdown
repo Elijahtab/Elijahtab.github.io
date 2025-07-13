@@ -4,6 +4,8 @@ title: "2135: A Sci-Fi Sketch"
 date: 2024-03-23 8:00:00 -0000
 categories: AI, NPC, Games, Game Design 
 ---
+This is a science fiction chronicle of a future shaped by climate collapse, interstellar expansion, and political upheaval. In a world where Earth is ruled by an authoritarian global council, humanity has terraformed Mars, colonized Proxima Centauri b, and now faces a new era of rebellion, independence, and war across the stars.
+
 Basic Outline:
 
 Due to the technological creation of fusion technology, on earth, corporations in unison with governments begin terraforming a second planet in the system, Mars, then through the creation of a partial dyson sphere, with about 0.01 percent coverage of the sun through massive solar panel arrays. This as well as technological advancements allow for Weyl Wormholes, which require immense amounts of energy provided by the dyson sphere. However, there need to be two ships at both locations to allow for the creation of a wormhole so relativistic travel, about 25 percent the speed of light. This allows for the colonization of Alpha-Centauri and with the use of Weyl Wormholes instantaneous connection between the solar system and Alpha-Centauri is capable of occuring. Proxima Centauri b, a planet in Alpha-Centauri is a habitable exoplanet that is colonized. Terraforming has also begun. This and mars’ terraforming/colonization had been mostly undertaken by corporations and some governments, however, due to unrest and a lack of democratization on Earth, as well as climate change, a world government took over. During this unrest period both Mars and Centauri B proclaim independence.
