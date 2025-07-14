@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Project One",
+        "excerpt":"More detailed content for the project.  ","categories": [],
+        "tags": [],
+        "url": "/portfolio/project-1/",
+        "teaser": "/assets/images/avatar.png"
+      },{
         "title": "Is AI the Future of Game Design?",
         "excerpt":"It’s a quiet saturday and I’m studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types – anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their...","categories": ["First","Game"],
         "tags": [],
@@ -36,7 +42,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2135: A Sci-Fi Sketch",
-        "excerpt":"This is a science fiction chronicle of a future shaped by climate collapse, interstellar expansion, and political upheaval. In a world where Earth is ruled by an authoritarian global council, humanity has terraformed Mars, colonized Proxima Centauri b, and now faces a new era of rebellion, independence, and war across...","categories": ["AI,","NPC,","Games,","Game","Design"],
+        "excerpt":"Basic Outline: Due to the technological creation of fusion technology, on earth, corporations in unison with governments begin terraforming a second planet in the system, Mars, then through the creation of a partial dyson sphere, with about 0.01 percent coverage of the sun through massive solar panel arrays. This as...","categories": ["AI,","NPC,","Games,","Game","Design"],
         "tags": [],
         "url": "/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html",
         "teaser": null

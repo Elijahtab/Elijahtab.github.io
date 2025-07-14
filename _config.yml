@@ -6,6 +6,34 @@ description: >-
 baseurl: "" # for GitHub Pages repo root
 url: "https://elijahtab.github.io"
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+    
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 
 remote_theme: mmistakes/minimal-mistakes
@@ -32,6 +60,7 @@ author:
   bio: "Game Developer. AI Enthusiast. Hiker."
   location: "Irvine, CA"
   links:
+    - label: "GitHub"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/elijahtab"

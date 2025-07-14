@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Revolutionizing NPC Interactions: The AI Frontier in Gaming"
 date: 2023-09-19 16:00:00 -0000
 categories: AI, NPC, Games, Game Design

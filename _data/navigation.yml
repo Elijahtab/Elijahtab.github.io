@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "Projects"
-    url: "/projects/"
+  - title: "Portfolio"
+    url: "/Portfolio/"
   - title: "Recent Posts"
     url: "#recent-posts"
 

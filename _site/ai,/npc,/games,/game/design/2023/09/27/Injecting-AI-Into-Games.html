@@ -1,4 +1,304 @@
-<p>The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!</p>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>AI-Powered NPCs: Shaping the Future of Gaming - Elijah Tabachnik</title>
+<meta name="description" content="The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!">
+
+
+  <meta name="author" content="Elijah Tabachnik">
+  
+  <meta property="article:author" content="Elijah Tabachnik">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Elijah Tabachnik">
+<meta property="og:title" content="AI-Powered NPCs: Shaping the Future of Gaming">
+<meta property="og:url" content="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html">
+
+
+  <meta property="og:description" content="The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-09-27T01:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Elijah Tabachnik Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Elijah Tabachnik
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/Portfolio/"
+                
+                
+              >Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/#recent-posts"
+                
+                
+              >Recent Posts</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/avatar.png" alt="Elijah Tabachnik" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Elijah Tabachnik</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Game Developer. AI Enthusiast. Hiker.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Irvine, CA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://github.com/elijahtab" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="mailto:elijah.tabachnik@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="/assets/files/resume.pdf" rel="nofollow noopener noreferrer me"><i class="fas fa-file-alt" aria-hidden="true"></i><span class="label">Resume</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="AI-Powered NPCs: Shaping the Future of Gaming">
+    <meta itemprop="description" content="The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!">
+    <meta itemprop="datePublished" content="2023-09-27T01:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html" itemprop="url">AI-Powered NPCs: Shaping the Future of Gaming
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!</p>
 
 <p>Before we get started, the game I have been working on and is the subject of this article can be found <a href="https://github.com/Elijahtab/Parallaxer">here</a>. If you want to make it work on your machine, you will need to add your own OpenAI key. This can be achieved by typing in, “Edit Environmental Variables” in your windows search bar and then, after reaching the variable menu, clicking new, the title should be “OPENAI_API_KEY” and the value your API key. I discuss this in greater detail in my previous <a href="https://elijahtab.github.io/ai,/npc,/games,/game/design/2023/09/19/Revolutionizing-NPC's-AI.html">article</a> on the topic. Also as mentioned there-in, artificial intelligence has the potential to burst into every facet of Video Game design, NPC interactions, logic engines, storytelling etc. For this article my goal was to showcase my further explorations with this concept. This article will serve as both a showcase of the possibilities, my work and as a rough guide for getting a jumpstart in the subject. The first step for this process was setting up a unity game that had the potential to be brought to life with AI:</p>
 
@@ -45,3 +345,276 @@ Define the NPCs’ behavior patterns. For example, some might provide crucial in
 
 <p>Imagine a gaming experience where every playthrough is unique, where NPCs remember your decisions, and where the story unfolds in response to your actions. This is the promise of AI in gaming—a future where immersion, storytelling, and player engagement reach unprecedented heights.In conclusion, our space platformer serves as a testament to the transformative power of AI in gaming. It’s a journey that hints at the limitless possibilities awaiting both developers and players. As we look ahead, the fusion of AI and gaming promises to redefine how we experience and interact with virtual worlds, and we can’t wait to see where this cosmic adventure takes us next. The future of gaming is poised to be nothing short of extraordinary.</p>
 
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-09-27T01:00:00-07:00">September 27, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?text=AI-Powered+NPCs%3A+Shaping+the+Future+of+Gaming%20http%3A%2F%2Flocalhost%3A4000%2Fai%2C%2Fnpc%2C%2Fgames%2C%2Fgame%2Fdesign%2F2023%2F09%2F27%2FInjecting-AI-Into-Games.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fai%2C%2Fnpc%2C%2Fgames%2C%2Fgame%2Fdesign%2F2023%2F09%2F27%2FInjecting-AI-Into-Games.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=AI-Powered+NPCs%3A+Shaping+the+Future+of+Gaming%20http%3A%2F%2Flocalhost%3A4000%2Fai%2C%2Fnpc%2C%2Fgames%2C%2Fgame%2Fdesign%2F2023%2F09%2F27%2FInjecting-AI-Into-Games.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ai,/npc,/games,/game/design/2023/09/19/Revolutionizing-NPC's-AI.html" class="pagination--pager" title="Revolutionizing NPC Interactions: The AI Frontier in Gaming">Previous</a>
+    
+    
+      <a href="/ai,/npc,/games,/game/design/2023/10/26/Control-Net-Tower-Defensey.html" class="pagination--pager" title="Crafting Game Maps with Stable Diffusion">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html" rel="permalink">2135: A Sci-Fi Sketch
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          35 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is a science fiction chronicle of a future shaped by climate collapse, interstellar expansion, and political upheaval that utilizes AI image generation.
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ai,/npc,/games,/game/design/2024/01/20/Terrain-Generation.html" rel="permalink">Procedural Terrain and Foliage Generation in Unity
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Lately I’ve been exploring the use of terrain generation for strategy game implementations. Specifically I’ve worked off of tutorials online about terrain ge...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ai,/npc,/games,/game/design/2024/01/10/AI-Historical-Avatar.html" rel="permalink">Recreating Historical Personalities with AI
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Reviving History: The Integration of AI in Recreating Iconic Personalities
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ai,/npc,/games,/game/design/2023/10/26/Control-Net-Tower-Defensey.html" rel="permalink">Crafting Game Maps with Stable Diffusion
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Artificial Intelligence will revolutionize the world around us. But it will not only do so for consumers, creators will be affected just as much if not more....</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Elijah Tabachnik</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
