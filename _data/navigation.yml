@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: "/"
   - title: "Portfolio"
-    url: "/Portfolio/"
+    url: "/portfolio/"
   - title: "Recent Posts"
     url: "#recent-posts"
 
