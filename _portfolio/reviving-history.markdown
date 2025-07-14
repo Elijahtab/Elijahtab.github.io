@@ -4,7 +4,7 @@ layout: single
 permalink: /projects/reviving-history/
 author_profile: true
 
-excerpt: A proof-of-concept AI project that brings JFK back to life through voice synthesis, OpenAI integration, and digital animation—exploring.
+excerpt: A proof-of-concept AI project that brings JFK back to life through voice synthesis, OpenAI integration, and digital animation.
 header:
     teaser: /assets/images/jfk.png
 ---

@@ -10,7 +10,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-    
+
 defaults:
   # _portfolio
   - scope:
@@ -57,7 +57,7 @@ paginate_path: "/page:num"
 author:
   name: "Elijah Tabachnik"
   avatar: "/assets/images/avatar.png"  
-  bio: "Game Developer. AI Enthusiast. Hiker."
+  bio: "AI + Full-Stack Developer. Systems Builder. Explorer."
   location: "Irvine, CA"
   links:
     - label: "GitHub"
