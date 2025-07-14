@@ -10,11 +10,11 @@ But forget about storytelling, what about giving AI agency. Meta has already sho
 
 This is fascinating for many reasons, but to a strategy nerd, Meta’s AI opens a world of possibilities. What happens when beloved Strategy games can be played single player with truly self-determined opponents that communicate and make decisions based on your input? A game where your advisors can dissect your strategy and that of your opponent and give you advice based on in-game happenings. But even more interesting is that these intelligences can be added in historical context. Many strategy games attempt to immerse the player in a historical period. The player could have AI imitating historical figures interacting with, advising and opposing the player. You could be interacting with Suleiman the Magnificent outside the gates of Vienna, or with Napoleon as he marches into Moscow. That's where my interest lies, can we make characters that attempt the emulation of historical figures. Some strategy games could implement this with a mod, Civilization V’s advisors, for example, could easily be turned into historical figures. Napoleon as a military advisor, Keynes as an economic advisor, Oppenheimer helping gleam which research is most important and Bismarck counseling your foreign diplomacy.
 
-<img src="/assets/civ1.png" height="384" width="512"> 
+<img src="/assets/images/civ1.png" height="384" width="512"> 
 
 I wanted to explore this realm of Artificial Intelligence myself, with the eventual goal being fully integrating an LLM into a game. The first part of this process was to create an account with OpenAI and set up per-token billing.
 
-<img src="/assets/openAI1.png" height="134" width="512"> 
+<img src="/assets/images/openAI1.png" height="134" width="512"> 
 
  You’re provided with an API key which gives you access to the API itself and is billed based on usage. This is actually an issue for creating marketable games with the API as your key both needs to be hidden, so as not to be the victim of theft, but also accessible for each user. However, I didn’t have to worry about that for this test run so I just used an environmental variable stored on my personal computer. This can be achieved by typing in, "Edit Environmental Variables" in your windows search bar and then, after reaching the variable menu, clicking new, the title should be "OPENAI_API_KEY" and the value your API key.
 
@@ -53,7 +53,7 @@ The Output
 
 You can find the full code in my [Github Repository][Github Repository]. After finishing up the technical aspects I went about my task: emulating Julius Caesar in conversation. I did this by adding in context to tha AI, or the basis for which the AI should construct its responses. My first attempt to achieve this was to add excerpts from Julius Caesar’s writings, however I quickly discovered an issue; OpenAI has a context limit of 4096 bytes, or about a paragraph of text, a far cry from my goal of 200 pages of Caesar's writings in De Bello Gallico and De Bello Civili. While in the future AI will certainly have the ability to process larger amounts of data, for now we are stuck with short and sweet. I did try doing some research and while I found some promising [Ideas][ideas] nothing really worked for my goals. However, as an LLM ChatGPT has access to Julius Caesar's writings, and even though it wouldn't be as precise as creating a personality around them, I could just create context that called upon the models inherent knowledge. My first attempt was promising however, 'Julius Caesar' kept rambling to such a degree that the token limit was reached and the so the bot stopped mid-sentence.
 
-<img src="/assets/Notlong.png" height="512" width="1093"> 
+<img src="/assets/images/Notlong.png" height="512" width="1093"> 
 
 After tweaking the prompt:
 
@@ -64,8 +64,8 @@ After tweaking the prompt:
 {% endhighlight %}
 
 It ended up working fairly well, as you can see in the following images.
-<img src="/assets/Caesar1.png" height="512" width="1093"> 
-<img src="/assets/Ariovistus.png" height="512" width="1093"> 
+<img src="/assets/images/Caesar1.png" height="512" width="1093"> 
+<img src="/assets/images/Ariovistus.png" height="512" width="1093"> 
 
 The intersection of artificial intelligence and gaming holds the promise of revolutionizing our gaming experiences in profound ways. The potential to engage in real, meaningful conversations with non-playable characters, thanks to modern LLMs, opens up new avenues for immersive storytelling and player interaction. The ability to create personalized interactions within game worlds, shaped by the unique characteristics of each AI-driven NPC, could redefine how we experience gaming narratives. 
 

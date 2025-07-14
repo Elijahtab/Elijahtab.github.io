@@ -21,11 +21,11 @@ I used [GoDoIt's][GoDoIt's] wrapper and the instructions present in his reposito
 Creating NPCs:
 Design and model the NPCs, making them visually distinct and suited to their respective roles in the game--I used free assets available on the Unity store as this was more of a demo than a fully fledged game.
 
-<img src="/assets/platformer2.png" height="150" width="109"> 
+<img src="/assets/images/platformer2.png" height="150" width="109"> 
 
 Then create animations for idle. This is something that youtube can help you with, Brackey's [video][video] on the subject is a good starting point. After that you are ready to create the actual process for sending and receiving messages with OpenAI. I personally used an inputfield for sending messages to OpenAI, a textbox with a background for recieving, as well as a button to catalyze the process.
 
-<img src="/assets/platformer1.png" height="411" width="472"> 
+<img src="/assets/images/platformer1.png" height="411" width="472"> 
 
 
 Dialogue System:
@@ -36,18 +36,18 @@ Behavior Patterns:
 Define the NPCs' behavior patterns. For example, some might provide crucial information about the level, while others could offer side quests or challenges. Implement decision-making logic using AI to determine NPC responses. As an example, the first character the player meets is Ralph, who's basic purpose is to let the player know that in order to access the mechanic that switches world's they have to press space. In order to achieve this I had to play with various prompts finally settling on {% highlight ruby %} prompt = "You are Ralph talking to the main character. Your goal is to help him understand in a subtle way that the world switches between two modes that help him do the parkour necessary to complete the levels. The player has to press space to engage this mode. Keep your responses relatively short while conveying the necessary information.";{% endhighlight %}. 
 
 This prompt led to successful interactions that let the player know what they should do next:
-<img src="/assets/platformer3.png" height="520" width="769"> 
+<img src="/assets/images/platformer3.png" height="520" width="769"> 
 
 
 And another one, just to prove I don't have a secret script feeding responses:
 
-<img src="/assets/platformer4.png" height="512" width="724"> 
+<img src="/assets/images/platformer4.png" height="512" width="724"> 
 
 After tweaking Ralph's prompt and AI settings, I decided to add another character that could provide a more interesting lens into the world the player inhabits. I decided to focus on a more melancholic disposition. Sally's prompt {% highlight ruby %} prompt = "You are Ralph talking to the main character. Your goal is to help him understand in a subtle way that the world switches between two modes that help him do the parkour necessary to complete the levels. The player has to press space to engage this mode. Keep your responses relatively short while conveying the necessary information.";{% endhighlight %} led to more fun responses...
 
-<img src="/assets/platformer5.png" height="498" width="538"> 
+<img src="/assets/images/platformer5.png" height="498" width="538"> 
 
-<img src="/assets/platformer6.png" height="515" width="639"> 
+<img src="/assets/images/platformer6.png" height="515" width="639"> 
 
 In this exploration of AI-powered NPCs in our space platformer, we've ventured into the exciting frontier where gaming and artificial intelligence converge. This project has illuminated the immense potential for AI to transform the gaming landscape. As we've witnessed, AI can bring NPCs to life in ways previously unimaginable. These characters aren't just static entities; they're storytellers, guides, and companions. They adapt, learn, and engage players in dynamic conversations, blurring the line between scripted content and player agency.What's truly fascinating is the glimpse this project offers into the future of gaming. As AI technology continues to advance, we can expect even more sophisticated and realistic NPC interactions. Games will become living, breathing worlds where AI-driven characters play pivotal roles in shaping narratives and adapting to player choices.
 

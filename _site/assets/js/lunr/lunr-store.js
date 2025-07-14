@@ -1,9 +1,15 @@
 var store = [{
-        "title": "Project One",
-        "excerpt":"More detailed content for the project.  ","categories": [],
+        "title": "Integrating AI in Recreating Iconic Personalities",
+        "excerpt":"Deepfake Technology OpenAIAPI Elevenlabs Project Overview Artificial Intelligence is transforming how we understand and engage with the world, and history is no exception. This project explores the intersection of AI technologies—language modeling, voice synthesis, and animation—to create an interactive digital version of President John F. Kennedy. Our team set out...","categories": [],
         "tags": [],
-        "url": "/portfolio/project-1/",
-        "teaser": "/assets/images/avatar.png"
+        "url": "/projects/reviving-history/",
+        "teaser": "/assets/images/jfk.png"
+      },{
+        "title": "Procedural Terrain + Foliage Generator",
+        "excerpt":"Unity / C# Procedural Generation Game Development Overview This project explores procedural terrain generation for use in strategy game environments. Built in Unity using C#, it generates terrain height maps, textures, and clustered foliage using layered Perlin noise functions. The result is a dynamic, forested terrain that feels both randomized...","categories": [],
+        "tags": [],
+        "url": "/projects/terrain-generator/",
+        "teaser": "/assets/images/Terrain6.png"
       },{
         "title": "Is AI the Future of Game Design?",
         "excerpt":"It’s a quiet saturday and I’m studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types – anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their...","categories": ["First","Game"],

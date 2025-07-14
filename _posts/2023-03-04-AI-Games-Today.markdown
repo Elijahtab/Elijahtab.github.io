@@ -100,43 +100,43 @@ public class PlayerController : MonoBehaviour
 
 This exact code can be found on my github, or right [here][Cupid-Repo]. Then I had to constrain my player within the boundaries of the screen.  This was the response given by ChatGPT when asked, `How would I limit the player to the boundaries of the screen?` 
 
-<img src="/assets/bounds1.png">
+<img src="/assets/images/bounds1.png">
 
 This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script file. Go try this out yourself. You won't get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game. 
 
 While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.
 
-<img src="/assets/despawner1.png"> 
+<img src="/assets/images/despawner1.png"> 
 
 Although this was all useful information which helped jog my caffeine-addled college brain, I needed a bit more. So I asked for specifics.
 
-<img src="/assets/despawnerr2.png"> 
+<img src="/assets/images/despawnerr2.png"> 
 
 After getting the exact code and applying it to my quickly expanding game, I tested the despawner. Unfortunately it didn't work, usually this would mean a long search involving google, stack exchange, discord and whatever else I could get my hands on. But why would I do that when GPT-3 was right there at my disposal? A simple question later, as well as some testing and my issues were solved.
 
-<img src="/assets/despawner3.png"> 
+<img src="/assets/images/despawner3.png"> 
 
 This part truly bedazzled me. Because usually going through the ardous process of finding a stack exchange post that was related to my issue was in itself demoralising, and thats discounting actually fixing the problem itself. I was able to ask a simple question and get a simple response that was, almost, completely related to my query. And so, in no time my despawner was working perfectly well.
 
 Now, I didn't just use AI to help code my game, no, I went further than that. The main antagonist -- of course coded with the help of ChatGPT -- was a brand new image sourced from [Scenario.gg][Scenario.gg]. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator. 
 
-<img src="/assets/robotgen.png" height="226" width="219"> 
+<img src="/assets/images/robotgen.png" height="226" width="219"> 
 
 The prompt I used was `Little Robots, Evil robot, Flying, wings`, which generated this little guy.
 
-<img src="/assets/enemy.png" height="225" width="225"> 
+<img src="/assets/images/enemy.png" height="225" width="225"> 
 
 After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the Stable Diffusion model. 
 
- <img src="/assets/jj.jpg" height="228" width="171">  <img src="/assets/animegf.png" height="228" width="307">  
+ <img src="/assets/images/jj.jpg" height="228" width="171">  <img src="/assets/images/animegf.png" height="228" width="307">  
 
 This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for a critique of the blog post:
 
-<img src="/assets/blogcorrection2.png"> 
+<img src="/assets/images/blogcorrection2.png"> 
 
 After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. And just in time for Valentines day.
 
-<img src="/assets/gamegif.gif"> 
+<img src="/assets/images/gamegif.gif"> 
 
 
 

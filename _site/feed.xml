@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T13:08:47-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Elijah Tabachnik</title><subtitle>My name is Elijah Tabachnik, I&apos;m an aspiring Game Developer studying Computer Science at UCI. I love strategy games, hiking and of course making games.</subtitle><author><name>Elijah Tabachnik</name></author><entry><title type="html">2135: A Sci-Fi Sketch</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html" rel="alternate" type="text/html" title="2135: A Sci-Fi Sketch" /><published>2024-03-23T01:00:00-07:00</published><updated>2024-03-23T01:00:00-07:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html"><![CDATA[<p><strong>Basic Outline:</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T13:38:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Elijah Tabachnik</title><subtitle>My name is Elijah Tabachnik, I&apos;m an aspiring Game Developer studying Computer Science at UCI. I love strategy games, hiking and of course making games.</subtitle><author><name>Elijah Tabachnik</name></author><entry><title type="html">2135: A Sci-Fi Sketch</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html" rel="alternate" type="text/html" title="2135: A Sci-Fi Sketch" /><published>2024-03-23T01:00:00-07:00</published><updated>2024-03-23T01:00:00-07:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2024/03/23/2135-SciFi.html"><![CDATA[<p><strong>Basic Outline:</strong></p>
 
 <p>Due to the technological creation of fusion technology, on earth, corporations in unison with governments begin terraforming a second planet in the system, Mars, then through the creation of a partial dyson sphere, with about 0.01 percent coverage of the sun through massive solar panel arrays. This as well as technological advancements allow for Weyl Wormholes, which require immense amounts of energy provided by the dyson sphere. However, there need to be two ships at both locations to allow for the creation of a wormhole so relativistic travel, about 25 percent the speed of light. This allows for the colonization of Alpha-Centauri and with the use of Weyl Wormholes instantaneous connection between the solar system and Alpha-Centauri is capable of occuring. Proxima Centauri b, a planet in Alpha-Centauri is a habitable exoplanet that is colonized. Terraforming has also begun. This and mars’ terraforming/colonization had been mostly undertaken by corporations and some governments, however, due to unrest and a lack of democratization on Earth, as well as climate change, a world government took over. During this unrest period both Mars and Centauri B proclaim independence.</p>
 
@@ -10,12 +10,12 @@
 
 <p>For Russia, the Climate change was a massive boon. By the mid 2000s the Federation was in decline, after its failure to conquer Ukraine in the 2020s, Russia endured a period of unrest, economic stagnation and international weakening. However, in the latter half of the 21st century climate warming dramatically transformed. The cold harsh arctic tundras that made up the majority of the country would find themselves transfigured into the most habitable, agriculturally stable and flourishing lands in the world. Due to the mass immigration endured by the Federation during this period extreme measures were taken to transform the immigrating population into Cultural Russians. By the waning years of the 21st century, Russia produced nearly half of the world’s food products, single handedly propping up the population of the European Union and the coastal population of China. This turned Russia into a superpower, especially when coupled with the discovery of new resources caused by Siberian settlement. Ultimately this would lead to The Catastrophe, when China would invade Eastern Siberia in order to provide for its still sizable population which could barely survive on the less-habitable land in China proper.</p>
 
-<p><img src="/assets/SciFi2.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi2.jpg" height="768" width="768" /> 
 Russian City of Yakutsk, the regional Capital of Siberia, 2089 A.D.</p>
 
 <p>China was affected significantly by Climate change as well. The vast river systems and wetlands that made up the country and provided for its fertility dried up due to global warming. Due to population decline, the need for fertile land was made less necessary, however eventually climate change caught up. With too large a population and not enough land to provide food, livable conditions, the majority of the population gathered around the coast and the rest immigrated to various countries, mostly Russia.</p>
 
-<p><img src="/assets/SciFi1.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi1.jpg" height="768" width="768" /> 
 Chinese Wasteland, 2070 A.D.</p>
 
 <p>The Indian Empire was most negatively affected by climate change facing drought, famine, heat waves and ultimately population collapse. This period was darkest in the country’s history and led to the rise of dictators that would come to define the country and create its Empire, which pushed in all directions looking for more arable land.</p>
@@ -26,7 +26,7 @@ Chinese Wasteland, 2070 A.D.</p>
 
 <p>The Catastrophe was the largest conflict since the Second World War. After more than one and half centuries of relative peace, Earth erupted into a massively brutal conflict that would rearrange its political, cultural and socio-economic landscape. It was in 2110, when the Chinese military entered Russian East-Siberia. This invasion was at its core one based around arable land. After the Global Crises of the late 21st century China was a husk of its former self, still wielding a relatively massive population, although nearly halved from its 2020s height. The main issues affecting the country were surrounding its lack of land, specifically the desertification of the interior of the country, which led to the coasts becoming nearly the sole population centers. This coupled with the flourishing of the neighboring Siberian Tundra led to Chinese politicians to begin plans for territorial expansion. This began initially with large military buildups, training and ramping up of arms manufacturing and the size of the military which took a backseat during the 21st century crises. Border conflicts and skirmishes began around the turn of the century and would eventually involve hundreds of thousands of troops on both sides. International mediation led by the United States through the United Nations managed to de-escalate the situation through territorial trades that often disadvantaged Russia by exchanging useless interior Chinese deserts for prime Siberian lands. However, the year 2110 heralded the worst effects of climate change, during the 2109 summer the monsoons in combination with sea flooding wreaked havoc on the coast. The Chinese government taking extreme measures were able to manage the effects, however, the decision cemented that Siberia would fall. A surprise attack was launched in the spring which destroyed the majority of the Russian Eastern Army. By winter 2110 Chinese troops entered the Siberian Capital of Yakutsk. Moscow leadership, shocked, took extreme measures, enlisting local recruits and authorizing the use of battlefield nuclear weapons. Due to the Alliance between the Russian Federation and the Indian Empire, China was flanked, however due to the ceaseless mountains in Tibet and Nepal as well as the vast deserts of the interior the Indian Army was unable to make meaningful progress. Throughout the years of the war China was slowly pushed back and eventually completely out of Siberia, however this took many years and during this period devastation ruled. While the European Union was diplomatically and economically close to China due to their manufacturing and anti-Russian stance, this war destroyed the backbone of Europe. Russian food exports made up 60% of European foodstuffs and while the Chinese attempted to keep up agriculture in Siberia during their occupation, they were unable to feed Europe. This led to years of famine and declining economic and political outcomes for the subcontinent. The entire world fell into a depression of massive proportions, in the United States this was the greatest effect of the Catastrophe. As Russian and Indian soldiers got closer and closer to Beijing the Chinese government began taking more extreme steps, expending their nuclear stockpile and using children as well as the old. The peak of this was the bombing of Moscow and Delhi. The response to this was a massive nuclear bombardment that left China in shambles. This was the final straw for the United States and the European Union which invaded China and destroyed the regime with the aid of a disgruntled and tired population. However, the Catastrophe was just beginning, the massive use of nuclear weapons against China would plunge the world into a sunless winter which destroyed crops, caused the coldest winter in the history of Civilization and crushed many of the remaining structures that had been able to withstand the climate crises of the previous century. In Europe mass famine and cold caused widespread destruction, Chinese citizens who had just lived through years of war faced similar issues. This led to the creation of the United Council, a federated government that was created to encompass all nations on Earth and deal with the Catastrophe that had engulfed the planet.</p>
 
-<p><img src="/assets/SciFi3.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi3.jpg" height="768" width="768" /> 
 Chinese hovercraft takes an image of victorious troops entering Yakutsk, 2110 A.D.</p>
 
 <p><strong>The United Council:</strong></p>
@@ -43,17 +43,17 @@ Chinese hovercraft takes an image of victorious troops entering Yakutsk, 2110 A.
 
 <p>However, this economic boom had reached a plateau as the resources of the Earth were strained due to the new economic heights being achieved. And as before the Catastrophe Earth looked outside itself. But things were not as they had been before. On Mars and Centauri B nearly a decade of silence from the mother planet had reshaped the relationship between the outlanders and their own potential sovereignty.</p>
 
-<p><img src="/assets/SciFi4.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi4.jpg" height="768" width="768" /> 
 Post-Catastrophe Manufacturing Commune, 2123 A.D.</p>
 
 <p><strong>Mars Outline:</strong></p>
 
-<p><img src="/assets/SciFi5.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi5.jpg" height="768" width="768" /> 
 First Man on Mars, 2044 A.D.</p>
 
 <p>The first man and woman set foot on Mars on the 80th anniversary of the moon landings in 2044. However much like the moon landings they went straight home and it would be another decade before man would set foot on the red planet. However, the second time humanity came it would stay. Though initially a national colony, two to be specific, one from the United States and the other China, humanity’s presence on Mars would soon be overtaken by corporations. After the discovery of significant reservoirs of precious metals and a huge variety of resources a frenzy of colonization and terraforming began. While at first lethargic and confined to underground cities, humanity dreamed of greater heights, of a green paradise reshaped in man’s image. Gaia was their key, an Artificial Intelligence supercomputer funded by the three major transnational corporations, which could handle 10^30th million calculations per second, far surpassing the total computing power of the whole of humanity(some 10^25th million calculations per second). Gaia would be the key to humanity’s aspirations, running endless simulations every second of every minute of every hour of every day for half a decade the super intelligence laid out a plan for the terraforming of Mars. Using fusion technology, which allowed for a massive increase in heating of the cold atmosphere of the planet, coupled with the injection of nitrogen, oxygen and various other atmospheric elements, allowed for a livable Mars. By 2080, thirty years after the project had begun, man first untethered from his breathing implements and inhaled the ambient air of a planet one-hundred million miles away from Earth. In the next two decades, until the Catastrophe, the pace of progress on the planet was phenomenal. The entirety of the United States was colonized over the course of nearly three centuries, Mars found itself dominated by man in merely 20 years. A generation that knew only the false sun of LED’s and the hard walls of stone would walk upon a green planet, more lush and more fertile than Earth could ever be.</p>
 
-<p><img src="/assets/SciFi6.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi6.jpg" height="768" width="768" /> 
 A picture taken from a skyscraper on New Washington in US controlled mars, 2102 A.D.</p>
 
 <p><strong>Pre-Catastrophe Mars:</strong></p>
@@ -66,7 +66,7 @@ A picture taken from a skyscraper on New Washington in US controlled mars, 2102 
 
 <p>Tensions simmered between the two worlds, fueled by conflicting interests and ideologies. Martian leaders found themselves locked in a delicate dance of diplomacy and brinkmanship, navigating a treacherous political landscape with skill and determination. Yet despite the looming shadow of Earth’s influence, the people of Mars remained steadfast in their resolve. Rallying around the banner of freedom and self-determination, they stood united in their quest to break free from the shackles of tyranny and forge their own destiny among the stars. As Mars began to further assert its independence and assert its sovereignty, tensions between the red planet and its blue counterpart reached a boiling point. The United Council, unwilling to relinquish its grip on its Martian colonies, deployed military assets to assert its authority and quell dissent.  But Mars was not to be cowed into submission. The Republic of Mars, bolstered by a burgeoning space force and a fiercely loyal populace, stood ready to defend its newfound freedom at all costs. Battles raged across the Martian surface and in the depths of space, as Earth and Mars clashed in a struggle for supremacy.  The conflict, which came to be known as the War of Martian Independence, would go down in history as one of the most epic struggles for freedom and self-determination ever waged. On one side stood the might of Earth’s military-industrial complex, with its vast resources and formidable firepower. On the other stood the indomitable spirit of the Martian people, united in their determination to carve out their own destiny among the stars.  The war exacted a heavy toll on both sides, claiming countless lives and wreaking havoc on both Earth and Mars. But in the end, it was the resilience and determination of the Martian people that proved decisive. After years of grueling conflict and untold sacrifice, Mars emerged victorious, its independence secured and its sovereignty affirmed.</p>
 
-<p><img src="/assets/SciFi6.jpg" height="768" width="768" /> 
+<p><img src="/assets/images/SciFi6.jpg" height="768" width="768" /> 
 Independence Day parade on Mars, 2130 A.D.</p>
 
 <p><strong>A New Chapter in Martian History:</strong></p>
@@ -122,14 +122,14 @@ In this complex dance of rivalry and interdependence, Centauri B and the United 
 <p>This is the most important part of the script: what it does is take in another noise map that was created and superimposes it on top of the height requirements of the original noisemap(which basically delineates where the water, grass and mountains start/end). So the superimposed noise map creates chunks of forest which can be manipulated by the treeChunkSize variable.</p>
 
 <p>You can see the chunks are variable and can be completely randomized, like the rest of the generation.
-<img src="/assets/Terrain1.png" height="390" width="956" /> 
+<img src="/assets/images/Terrain1.png" height="390" width="956" /> 
 You can make them larger
-<img src="/assets/Terrain2.png" height="390" width="956" /> 
+<img src="/assets/images/Terrain2.png" height="390" width="956" /> 
 And you can even increase the density of the trees, with up to 15,000 trees before you start noticing lag, at least on my computer. I was able to achieve this by combining Unity’s built-in tree generation software with the LOD to create a fairly seamless transition. 
-<img src="/assets/Terrain3.png" height="390" width="956" /> 
-<img src="/assets/Terrain4.png" height="390" width="956" /> 
+<img src="/assets/images/Terrain3.png" height="390" width="956" /> 
+<img src="/assets/images/Terrain4.png" height="390" width="956" /> 
 There’s also grass, although it is not based around chunks because grass is kind of everywhere, foliage is less chunkable, let’s put it that way.
-<img src="/assets/Terrain5.png" height="390" width="956" /></p>
+<img src="/assets/images/Terrain5.png" height="390" width="956" /></p>
 
 <p>Overall working on this has been super fun and I want explore making nature in virtual worlds more.</p>]]></content><author><name>Elijah Tabachnik</name></author><category term="AI," /><category term="NPC," /><category term="Games," /><category term="Game" /><category term="Design" /><summary type="html"><![CDATA[Lately I’ve been exploring the use of terrain generation for strategy game implementations. Specifically I’ve worked off of tutorials online about terrain generation to create a procedural terrain+foliage generator using perlin noise. You can find the project here. The basic setup is to create a noise map using perlin noise and then convert it into whatever you need from there, so a height map and a texture map. For this first part I used parts of Sebastian Lague’s tutorial on the subject linked here. And from there I added an additional noise map for the tree chunks, so that the trees weren’t random but followed a forest-like configuration.The code itself doesn’t really make too much sense out of context so I’ll explain the important part and if you’re curious to explore more you can find the ‘ObjectGenerator’ script that does most of the heavy lifting.]]></summary></entry><entry><title type="html">Recreating Historical Personalities with AI</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2024/01/10/AI-Historical-Avatar.html" rel="alternate" type="text/html" title="Recreating Historical Personalities with AI" /><published>2024-01-10T00:00:00-08:00</published><updated>2024-01-10T00:00:00-08:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2024/01/10/AI-Historical-Avatar</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2024/01/10/AI-Historical-Avatar.html"><![CDATA[<p>Reviving History: The Integration of AI in Recreating Iconic Personalities</p>
 
@@ -165,11 +165,11 @@ There’s also grass, although it is not based around chunks because grass is ki
 
 <p>AI opens new avenues in educational methodologies and historical engagement. It presents an innovative way to interact with history, transforming the learning experience from passive absorption to active engagement. That’s really what this project was about. Trying to get Students and history enthusiasts to be able to have a simulated conversation with JFK, a conversation that could help engagement and feeling like this is something that really happened. This is of course why I’m so interested in this project. I think that history can be very academic and cold, which is good in some ways but in others it’s limiting. History is our collective past and it defines the way we live our lives and it’s super relevant and anything that can make it more accessible and real is beautiful I think. While I’m sure I haven’t achieved that here it’s a start and I hope that I can explore this further in the future.</p>]]></content><author><name>Elijah Tabachnik</name></author><category term="AI," /><category term="NPC," /><category term="Games," /><category term="Game" /><category term="Design" /><summary type="html"><![CDATA[Reviving History: The Integration of AI in Recreating Iconic Personalities]]></summary></entry><entry><title type="html">Crafting Game Maps with Stable Diffusion</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2023/10/26/Control-Net-Tower-Defensey.html" rel="alternate" type="text/html" title="Crafting Game Maps with Stable Diffusion" /><published>2023-10-26T01:00:00-07:00</published><updated>2023-10-26T01:00:00-07:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2023/10/26/Control-Net-Tower-Defensey</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2023/10/26/Control-Net-Tower-Defensey.html"><![CDATA[<p>Artificial Intelligence will revolutionize the world around us. But it will not only do so for consumers, creators will be affected just as much if not more. Generative AI is making things that would have required hours of the work of professionals before. In my newest dive into this world, I used Stable Diffusion to do the heavy lifting for the art in my Tower Defense game. Using stable Diffusions control net extension, I was able to turn this:</p>
 
-<p><img src="/assets/stablDiffBackground1.png" height="540" width="960" /></p>
+<p><img src="/assets/images/stablDiffBackground1.png" height="540" width="960" /></p>
 
 <p>Into this:</p>
 
-<p><img src="/assets/stableDiff11.png" height="540" width="960" /></p>
+<p><img src="/assets/images/stableDiff11.png" height="540" width="960" /></p>
 
 <p>Creating immersive and captivating maps for a tower defense game is a complex task that demands innovation and sophistication. In the realm of game development, there is a powerful yet relatively lesser-known tool at our disposal - Stable Diffusion. This cutting-edge technology not only empowers game designers to craft intricate and dynamic landscapes but also introduces an unprecedented level of stability and coherence to the map generation process. In this blog post, we will delve into the fascinating world of using Stable Diffusion for map design in tower defense games, exploring its limitless potential, and offering insights into how it can elevate the gaming experience to new heights. Whether you’re a seasoned game developer seeking to revamp your projects or a budding enthusiast with a passion for creating engaging game environments, this exploration of Stable Diffusion’s role in tower defense map design is bound to inspire and inform your creative journey.</p>
 
@@ -180,27 +180,27 @@ There’s also grass, although it is not based around chunks because grass is ki
 <p>First I tried doing scribble mode which was suggested on some message boards and articles as a better alternative to Canny as it allowed for more fuzziness around the edges, literally and figuratively, giving the AI more leeway as well as providing a less rigid image from which to work with. However, the result was not always perfect. I definitely had to play with the prompt a bit, different types of prompts(industrial, desert, castle) had different needs, so I had to customize the prompts a bit adding different levels of ‘top down view’ or whatever that specific prompt needed. However, what I found was that using different models of control-net could yield various results that the user was looking for. So using scribble gave you more of a fluid image, while canny gave you a very rigid non-unique look, finally depth worked better sometimes than others, but definitely gave interesting backgrounds with obviously more depth.</p>
 
 <p>Image I got using Scribble:
-<img src="/assets/scribble1.png" height="540" width="960" /></p>
+<img src="/assets/images/scribble1.png" height="540" width="960" /></p>
 
 <p>Image I got using Canny:
-<img src="/assets/canny1.png" height="540" width="960" /></p>
+<img src="/assets/images/canny1.png" height="540" width="960" /></p>
 
 <p>Image I got using Depth:
-<img src="/assets/depth1.png" height="540" width="960" /></p>
+<img src="/assets/images/depth1.png" height="540" width="960" /></p>
 
 <p>I found that I had no favorite model as other bloggers mentioned, for me scribble, depth and canny all provided good results at different points and could be used to attain similar yet distinct backgrounds. Although scribble was by far the least dependable, having small defects and a lack of straight paths. After doing some exploring I managed to find the image that control-net uses as a base and that told me everything I needed to know about why scribble was so inaccurate:</p>
 
-<p><img src="/assets/stablDiffBackground5.png" height="540" width="960" /></p>
+<p><img src="/assets/images/stablDiffBackground5.png" height="540" width="960" /></p>
 
 <p>However, after some experimenting I realized that the power of the scribble was that it was designed to create images from meandering lines such as the one shown below:</p>
 
-<p><img src="/assets/StableDiffBackground4.png" height="540" width="960" /></p>
+<p><img src="/assets/images/StableDiffBackground4.png" height="540" width="960" /></p>
 
 <p>Which gave me this result, which I thought was pretty cool and I ended up using it in the game itself:</p>
 
-<p><img src="/assets/scribble2.png" height="540" width="960" /></p>
+<p><img src="/assets/images/scribble2.png" height="540" width="960" /></p>
 
-<p><img src="/assets/InGameScribble.png" height="536" width="960" /></p>]]></content><author><name>Elijah Tabachnik</name></author><category term="AI," /><category term="NPC," /><category term="Games," /><category term="Game" /><category term="Design" /><summary type="html"><![CDATA[Artificial Intelligence will revolutionize the world around us. But it will not only do so for consumers, creators will be affected just as much if not more. Generative AI is making things that would have required hours of the work of professionals before. In my newest dive into this world, I used Stable Diffusion to do the heavy lifting for the art in my Tower Defense game. Using stable Diffusions control net extension, I was able to turn this:]]></summary></entry><entry><title type="html">AI-Powered NPCs: Shaping the Future of Gaming</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html" rel="alternate" type="text/html" title="AI-Powered NPCs: Shaping the Future of Gaming" /><published>2023-09-27T01:00:00-07:00</published><updated>2023-09-27T01:00:00-07:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html"><![CDATA[<p>The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!</p>
+<p><img src="/assets/images/InGameScribble.png" height="536" width="960" /></p>]]></content><author><name>Elijah Tabachnik</name></author><category term="AI," /><category term="NPC," /><category term="Games," /><category term="Game" /><category term="Design" /><summary type="html"><![CDATA[Artificial Intelligence will revolutionize the world around us. But it will not only do so for consumers, creators will be affected just as much if not more. Generative AI is making things that would have required hours of the work of professionals before. In my newest dive into this world, I used Stable Diffusion to do the heavy lifting for the art in my Tower Defense game. Using stable Diffusions control net extension, I was able to turn this:]]></summary></entry><entry><title type="html">AI-Powered NPCs: Shaping the Future of Gaming</title><link href="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html" rel="alternate" type="text/html" title="AI-Powered NPCs: Shaping the Future of Gaming" /><published>2023-09-27T01:00:00-07:00</published><updated>2023-09-27T01:00:00-07:00</updated><id>http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games</id><content type="html" xml:base="http://localhost:4000/ai,/npc,/games,/game/design/2023/09/27/Injecting-AI-Into-Games.html"><![CDATA[<p>The world of gaming has always been a breeding ground for innovation, and one of the most exciting frontiers in game development is the integration of artificial intelligence (AI) to create more immersive and dynamic experiences. In this blog, I’ll take you on a journey through the creation of a platformer game set in space, where the non-player characters (NPCs) are powered by OpenAI. This project not only serves as a captivating demo but also provides valuable insights into harnessing AI in gaming. So, let’s embark on this cosmic adventure!</p>
 
 <p>Before we get started, the game I have been working on and is the subject of this article can be found <a href="https://github.com/Elijahtab/Parallaxer">here</a>. If you want to make it work on your machine, you will need to add your own OpenAI key. This can be achieved by typing in, “Edit Environmental Variables” in your windows search bar and then, after reaching the variable menu, clicking new, the title should be “OPENAI_API_KEY” and the value your API key. I discuss this in greater detail in my previous <a href="https://elijahtab.github.io/ai,/npc,/games,/game/design/2023/09/19/Revolutionizing-NPC's-AI.html">article</a> on the topic. Also as mentioned there-in, artificial intelligence has the potential to burst into every facet of Video Game design, NPC interactions, logic engines, storytelling etc. For this article my goal was to showcase my further explorations with this concept. This article will serve as both a showcase of the possibilities, my work and as a rough guide for getting a jumpstart in the subject. The first step for this process was setting up a unity game that had the potential to be brought to life with AI:</p>
 
@@ -213,11 +213,11 @@ I used <a href="https://github.com/OkGoDoIt/OpenAI-API-dotnet">GoDoIt’s</a> wr
 <p>Creating NPCs:
 Design and model the NPCs, making them visually distinct and suited to their respective roles in the game–I used free assets available on the Unity store as this was more of a demo than a fully fledged game.</p>
 
-<p><img src="/assets/platformer2.png" height="150" width="109" /></p>
+<p><img src="/assets/images/platformer2.png" height="150" width="109" /></p>
 
 <p>Then create animations for idle. This is something that youtube can help you with, Brackey’s <a href="https://www.youtube.com/watch?v=hkaysu1Z-N8">video</a> on the subject is a good starting point. After that you are ready to create the actual process for sending and receiving messages with OpenAI. I personally used an inputfield for sending messages to OpenAI, a textbox with a background for recieving, as well as a button to catalyze the process.</p>
 
-<p><img src="/assets/platformer1.png" height="411" width="472" /></p>
+<p><img src="/assets/images/platformer1.png" height="411" width="472" /></p>
 
 <p>Dialogue System:</p>
 
@@ -229,19 +229,19 @@ Define the NPCs’ behavior patterns. For example, some might provide crucial in
 <p>.</p>
 
 <p>This prompt led to successful interactions that let the player know what they should do next:
-<img src="/assets/platformer3.png" height="520" width="769" /></p>
+<img src="/assets/images/platformer3.png" height="520" width="769" /></p>
 
 <p>And another one, just to prove I don’t have a secret script feeding responses:</p>
 
-<p><img src="/assets/platformer4.png" height="512" width="724" /></p>
+<p><img src="/assets/images/platformer4.png" height="512" width="724" /></p>
 
 <p>After tweaking Ralph’s prompt and AI settings, I decided to add another character that could provide a more interesting lens into the world the player inhabits. I decided to focus on a more melancholic disposition. Sally’s prompt</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">prompt</span> <span class="o">=</span> <span class="s2">"You are Ralph talking to the main character. Your goal is to help him understand in a subtle way that the world switches between two modes that help him do the parkour necessary to complete the levels. The player has to press space to engage this mode. Keep your responses relatively short while conveying the necessary information."</span><span class="p">;</span></code></pre></figure>
 <p>led to more fun responses…</p>
 
-<p><img src="/assets/platformer5.png" height="498" width="538" /></p>
+<p><img src="/assets/images/platformer5.png" height="498" width="538" /></p>
 
-<p><img src="/assets/platformer6.png" height="515" width="639" /></p>
+<p><img src="/assets/images/platformer6.png" height="515" width="639" /></p>
 
 <p>In this exploration of AI-powered NPCs in our space platformer, we’ve ventured into the exciting frontier where gaming and artificial intelligence converge. This project has illuminated the immense potential for AI to transform the gaming landscape. As we’ve witnessed, AI can bring NPCs to life in ways previously unimaginable. These characters aren’t just static entities; they’re storytellers, guides, and companions. They adapt, learn, and engage players in dynamic conversations, blurring the line between scripted content and player agency.What’s truly fascinating is the glimpse this project offers into the future of gaming. As AI technology continues to advance, we can expect even more sophisticated and realistic NPC interactions. Games will become living, breathing worlds where AI-driven characters play pivotal roles in shaping narratives and adapting to player choices.</p>
 
@@ -251,11 +251,11 @@ Define the NPCs’ behavior patterns. For example, some might provide crucial in
 
 <p>This is fascinating for many reasons, but to a strategy nerd, Meta’s AI opens a world of possibilities. What happens when beloved Strategy games can be played single player with truly self-determined opponents that communicate and make decisions based on your input? A game where your advisors can dissect your strategy and that of your opponent and give you advice based on in-game happenings. But even more interesting is that these intelligences can be added in historical context. Many strategy games attempt to immerse the player in a historical period. The player could have AI imitating historical figures interacting with, advising and opposing the player. You could be interacting with Suleiman the Magnificent outside the gates of Vienna, or with Napoleon as he marches into Moscow. That’s where my interest lies, can we make characters that attempt the emulation of historical figures. Some strategy games could implement this with a mod, Civilization V’s advisors, for example, could easily be turned into historical figures. Napoleon as a military advisor, Keynes as an economic advisor, Oppenheimer helping gleam which research is most important and Bismarck counseling your foreign diplomacy.</p>
 
-<p><img src="/assets/civ1.png" height="384" width="512" /></p>
+<p><img src="/assets/images/civ1.png" height="384" width="512" /></p>
 
 <p>I wanted to explore this realm of Artificial Intelligence myself, with the eventual goal being fully integrating an LLM into a game. The first part of this process was to create an account with OpenAI and set up per-token billing.</p>
 
-<p><img src="/assets/openAI1.png" height="134" width="512" /></p>
+<p><img src="/assets/images/openAI1.png" height="134" width="512" /></p>
 
 <p>You’re provided with an API key which gives you access to the API itself and is billed based on usage. This is actually an issue for creating marketable games with the API as your key both needs to be hidden, so as not to be the victim of theft, but also accessible for each user. However, I didn’t have to worry about that for this test run so I just used an environmental variable stored on my personal computer. This can be achieved by typing in, “Edit Environmental Variables” in your windows search bar and then, after reaching the variable menu, clicking new, the title should be “OPENAI_API_KEY” and the value your API key.</p>
 
@@ -283,15 +283,15 @@ Define the NPCs’ behavior patterns. For example, some might provide crucial in
 
 <p>You can find the full code in my <a href="https://github.com/Elijahtab/OpenAI-API-With-Caesar">Github Repository</a>. After finishing up the technical aspects I went about my task: emulating Julius Caesar in conversation. I did this by adding in context to tha AI, or the basis for which the AI should construct its responses. My first attempt to achieve this was to add excerpts from Julius Caesar’s writings, however I quickly discovered an issue; OpenAI has a context limit of 4096 bytes, or about a paragraph of text, a far cry from my goal of 200 pages of Caesar’s writings in De Bello Gallico and De Bello Civili. While in the future AI will certainly have the ability to process larger amounts of data, for now we are stuck with short and sweet. I did try doing some research and while I found some promising <a href="https://fortelabs.com/blog/how-to-summarize-books-using-chatgpt/">Ideas</a> nothing really worked for my goals. However, as an LLM ChatGPT has access to Julius Caesar’s writings, and even though it wouldn’t be as precise as creating a personality around them, I could just create context that called upon the models inherent knowledge. My first attempt was promising however, ‘Julius Caesar’ kept rambling to such a degree that the token limit was reached and the so the bot stopped mid-sentence.</p>
 
-<p><img src="/assets/Notlong.png" height="512" width="1093" /></p>
+<p><img src="/assets/images/Notlong.png" height="512" width="1093" /></p>
 
 <p>After tweaking the prompt:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">new</span> <span class="no">ChatMessage</span><span class="p">(</span><span class="no">ChatMessageRole</span><span class="o">.</span><span class="no">System</span><span class="p">,</span> <span class="s2">"You are Julius Caesar, you will attempt to emulate him as best as possible using his writings in De Bello and De bello civili. You will never break character and always pretend you are Julius Caesar. Reply with relatively short but informative answers up to 6 sentences long."</span><span class="p">)</span></code></pre></figure>
 
 <p>It ended up working fairly well, as you can see in the following images.
-<img src="/assets/Caesar1.png" height="512" width="1093" /> 
-<img src="/assets/Ariovistus.png" height="512" width="1093" /></p>
+<img src="/assets/images/Caesar1.png" height="512" width="1093" /> 
+<img src="/assets/images/Ariovistus.png" height="512" width="1093" /></p>
 
 <p>The intersection of artificial intelligence and gaming holds the promise of revolutionizing our gaming experiences in profound ways. The potential to engage in real, meaningful conversations with non-playable characters, thanks to modern LLMs, opens up new avenues for immersive storytelling and player interaction. The ability to create personalized interactions within game worlds, shaped by the unique characteristics of each AI-driven NPC, could redefine how we experience gaming narratives.</p>
 
@@ -389,42 +389,42 @@ Define the NPCs’ behavior patterns. For example, some might provide crucial in
 
 <p>This exact code can be found on my github, or right <a href="https://github.com/Elijahtab/Cupids-Rocket">here</a>. Then I had to constrain my player within the boundaries of the screen.  This was the response given by ChatGPT when asked, <code class="language-plaintext highlighter-rouge">How would I limit the player to the boundaries of the screen?</code></p>
 
-<p><img src="/assets/bounds1.png" /></p>
+<p><img src="/assets/images/bounds1.png" /></p>
 
 <p>This snippet of code was one of the first, of many, mind-blowing moments as it worked perfectly as soon as I copy-pasted it into my script file. Go try this out yourself. You won’t get the same answer as me, but I guarantee it will be one that can be implemented in a Unity game.</p>
 
 <p>While these were relatively widespread game mechanics that could be found in almost all starter Unity games, ChatGPT was able to help me with the not-so general stuff too. In order for my vision to work I needed a way for my enemy sprites to spawn, get across the screen. and then delete themselves. This was one of the harder parts. While I remembered making a despawner box from the previous quarter, I had forgotten the exact steps. So I asked ChatGPT.</p>
 
-<p><img src="/assets/despawner1.png" /></p>
+<p><img src="/assets/images/despawner1.png" /></p>
 
 <p>Although this was all useful information which helped jog my caffeine-addled college brain, I needed a bit more. So I asked for specifics.</p>
 
-<p><img src="/assets/despawnerr2.png" /></p>
+<p><img src="/assets/images/despawnerr2.png" /></p>
 
 <p>After getting the exact code and applying it to my quickly expanding game, I tested the despawner. Unfortunately it didn’t work, usually this would mean a long search involving google, stack exchange, discord and whatever else I could get my hands on. But why would I do that when GPT-3 was right there at my disposal? A simple question later, as well as some testing and my issues were solved.</p>
 
-<p><img src="/assets/despawner3.png" /></p>
+<p><img src="/assets/images/despawner3.png" /></p>
 
 <p>This part truly bedazzled me. Because usually going through the ardous process of finding a stack exchange post that was related to my issue was in itself demoralising, and thats discounting actually fixing the problem itself. I was able to ask a simple question and get a simple response that was, almost, completely related to my query. And so, in no time my despawner was working perfectly well.</p>
 
 <p>Now, I didn’t just use AI to help code my game, no, I went further than that. The main antagonist – of course coded with the help of ChatGPT – was a brand new image sourced from <a href="https://www.scenario.com/">Scenario.gg</a>. Scenario is a stable diffusion model that allows the user to create a generator, which is filled with similar images chosen by the user that are synthesized into a personal image creator which accepts prompts and images. I used a generator that was previously created by a user, the little robots generator.</p>
 
-<p><img src="/assets/robotgen.png" height="226" width="219" /></p>
+<p><img src="/assets/images/robotgen.png" height="226" width="219" /></p>
 
 <p>The prompt I used was <code class="language-plaintext highlighter-rouge">Little Robots, Evil robot, Flying, wings</code>, which generated this little guy.</p>
 
-<p><img src="/assets/enemy.png" height="225" width="225" /></p>
+<p><img src="/assets/images/enemy.png" height="225" width="225" /></p>
 
 <p>After playing around with transparency and alpha channels in gimp, my antagonist was born. But something was missing, the person this was all about. So I used the Anime Portraits generator, and inputted an image of my girlfriend as a reference for the Stable Diffusion model.</p>
 
-<p><img src="/assets/jj.jpg" height="228" width="171" />  <img src="/assets/animegf.png" height="228" width="307" /></p>
+<p><img src="/assets/images/jj.jpg" height="228" width="171" />  <img src="/assets/images/animegf.png" height="228" width="307" /></p>
 
 <p>This image can be seen as the background for the main menu in the game. I was able to, with the help of AI, do the job of an artist myself. Artifical Intelligence, with my guidance and implementation, truly built this game. In fact, ChatGPT even helped me write this blog. The AIs answer to my asking for a critique of the blog post:</p>
 
-<p><img src="/assets/blogcorrection2.png" /></p>
+<p><img src="/assets/images/blogcorrection2.png" /></p>
 
 <p>After all of this prompting and implementing I was able to create a fully functional game that was even somewhat fun to play. And just in time for Valentines day.</p>
 
-<p><img src="/assets/gamegif.gif" /></p>
+<p><img src="/assets/images/gamegif.gif" /></p>
 
 <p>But, its not all rainbows and sunshine. ChatGPT has its fair share of issues. Asking it more complex questions often yields meager and chaotic results. And furthermore, the code it provides is not always foolproof, which can lead to some infuriating moments. For example while working on another game, ChatGPT provided me with defunct code that had been fazed out with a newer version of Unity. Or, when asked to create a script that allows for certain objects to be deactivated then reactivated, the AI failed to account for the fact that when a GameObject is deactivated in its entirety, you cannot refer to it by its tag. Thus, you have no way of reactivating it. And this is only talking about ChatGPT; the amount of times I was forced to regenerate images for Cupid’s Rocket because of lacking or disturbing outcomes was more than significant. This however, is an adolescent stage of Artificial Intelligence. And these issues will assuredly fade. As this technology develops, whatever I was shocked by during the creation of this game will surely become commonplace. Coding projects that were once the domain of well-payed professionals may become no more than a click away. And while this game is relatively basic, which may reflect both my novelty and the relative infancy of artificial intelligence, it is still, in my opinion a truly awe-inspiring glance into the future of game design and by extension of the world.</p>]]></content><author><name>Elijah Tabachnik</name></author><category term="First" /><category term="Game" /><summary type="html"><![CDATA[It’s a quiet saturday and I’m studying for an upcoming test. As I survey the study lounge that is my home until the clock strikes eleven, I note the usual types – anxious procrastinators making up for lost time, socializers pretending to study, snackers that never seem to stop their chewing – but something feels off, a foreboding feeling saturates the room. My worries are actualized with a slight ping – a text from my girlfriend professing her excitement at the gift she’s gotten me for Valentines day. Horror engulfs me. How could I have forgotten, Valentine’s is only four days away and I have no gift at the ready.]]></summary></entry></feed>

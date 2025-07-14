@@ -7,11 +7,11 @@ categories: AI, NPC, Games, Game Design
 
 Artificial Intelligence will revolutionize the world around us. But it will not only do so for consumers, creators will be affected just as much if not more. Generative AI is making things that would have required hours of the work of professionals before. In my newest dive into this world, I used Stable Diffusion to do the heavy lifting for the art in my Tower Defense game. Using stable Diffusions control net extension, I was able to turn this:
 
-<img src="/assets/stablDiffBackground1.png" height="540" width="960"> 
+<img src="/assets/images/stablDiffBackground1.png" height="540" width="960"> 
 
 Into this:
 
-<img src="/assets/stableDiff11.png" height="540" width="960"> 
+<img src="/assets/images/stableDiff11.png" height="540" width="960"> 
 
 
 Creating immersive and captivating maps for a tower defense game is a complex task that demands innovation and sophistication. In the realm of game development, there is a powerful yet relatively lesser-known tool at our disposal - Stable Diffusion. This cutting-edge technology not only empowers game designers to craft intricate and dynamic landscapes but also introduces an unprecedented level of stability and coherence to the map generation process. In this blog post, we will delve into the fascinating world of using Stable Diffusion for map design in tower defense games, exploring its limitless potential, and offering insights into how it can elevate the gaming experience to new heights. Whether you're a seasoned game developer seeking to revamp your projects or a budding enthusiast with a passion for creating engaging game environments, this exploration of Stable Diffusion's role in tower defense map design is bound to inspire and inform your creative journey.
@@ -25,34 +25,34 @@ First I tried doing scribble mode which was suggested on some message boards and
 
 
 Image I got using Scribble:
-<img src="/assets/scribble1.png" height="540" width="960"> 
+<img src="/assets/images/scribble1.png" height="540" width="960"> 
 
 
 
 Image I got using Canny:
-<img src="/assets/canny1.png" height="540" width="960"> 
+<img src="/assets/images/canny1.png" height="540" width="960"> 
 
 
 Image I got using Depth:
-<img src="/assets/depth1.png" height="540" width="960"> 
+<img src="/assets/images/depth1.png" height="540" width="960"> 
 
 
 
 I found that I had no favorite model as other bloggers mentioned, for me scribble, depth and canny all provided good results at different points and could be used to attain similar yet distinct backgrounds. Although scribble was by far the least dependable, having small defects and a lack of straight paths. After doing some exploring I managed to find the image that control-net uses as a base and that told me everything I needed to know about why scribble was so inaccurate:
 
-<img src="/assets/stablDiffBackground5.png" height="540" width="960"> 
+<img src="/assets/images/stablDiffBackground5.png" height="540" width="960"> 
 
 
 However, after some experimenting I realized that the power of the scribble was that it was designed to create images from meandering lines such as the one shown below:
 
-<img src="/assets/StableDiffBackground4.png" height="540" width="960"> 
+<img src="/assets/images/StableDiffBackground4.png" height="540" width="960"> 
 
 
 Which gave me this result, which I thought was pretty cool and I ended up using it in the game itself:
 
-<img src="/assets/scribble2.png" height="540" width="960"> 
+<img src="/assets/images/scribble2.png" height="540" width="960"> 
 
-<img src="/assets/InGameScribble.png" height="536" width="960"> 
+<img src="/assets/images/InGameScribble.png" height="536" width="960"> 
 
 
 

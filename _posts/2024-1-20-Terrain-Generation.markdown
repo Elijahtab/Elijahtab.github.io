@@ -9,14 +9,14 @@ Lately I’ve been exploring the use of terrain generation for strategy game imp
 This is the most important part of the script: what it does is take in another noise map that was created and superimposes it on top of the height requirements of the original noisemap(which basically delineates where the water, grass and mountains start/end). So the superimposed noise map creates chunks of forest which can be manipulated by the treeChunkSize variable.
 
 You can see the chunks are variable and can be completely randomized, like the rest of the generation.
-<img src="/assets/Terrain1.png" height="390" width="956"> 
+<img src="/assets/images/Terrain1.png" height="390" width="956"> 
 You can make them larger
-<img src="/assets/Terrain2.png" height="390" width="956"> 
+<img src="/assets/images/Terrain2.png" height="390" width="956"> 
 And you can even increase the density of the trees, with up to 15,000 trees before you start noticing lag, at least on my computer. I was able to achieve this by combining Unity’s built-in tree generation software with the LOD to create a fairly seamless transition. 
-<img src="/assets/Terrain3.png" height="390" width="956"> 
-<img src="/assets/Terrain4.png" height="390" width="956"> 
+<img src="/assets/images/Terrain3.png" height="390" width="956"> 
+<img src="/assets/images/Terrain4.png" height="390" width="956"> 
 There's also grass, although it is not based around chunks because grass is kind of everywhere, foliage is less chunkable, let's put it that way.
-<img src="/assets/Terrain5.png" height="390" width="956"> 
+<img src="/assets/images/Terrain5.png" height="390" width="956"> 
 
 Overall working on this has been super fun and I want explore making nature in virtual worlds more.
 
