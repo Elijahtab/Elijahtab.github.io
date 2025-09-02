@@ -1,5 +1,6 @@
 ---
 title: Procedural Terrain + Foliage Generator
+date: 2024-07-01
 layout: single
 permalink: /projects/terrain-generator/
 author_profile: true

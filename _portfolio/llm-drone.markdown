@@ -1,5 +1,6 @@
 ---
 title: Agentic LLM Autonomous Drone
+date: 2025-09-01
 layout: single
 permalink: /projects/llm-drone/
 author_profile: true
@@ -46,7 +47,7 @@ The vision system provides bounding boxes around the target and calculates movem
 Future iterations will integrate GPS and other onboard sensors for expanded autonomous capabilities and more complex tasks.
 
 ## Demo Video
-[![Watch the Demo](https://www.youtube.com/watch?v=iRPw58BgnR8/0.jpg)](https://www.youtube.com/watch?v=iRPw58BgnR8)
+[![Watch the Demo](/assets/images/drone-demo.png)](https://www.youtube.com/watch?v=iRPw58BgnR8)
 
 ## Project Link
 👉 [View the code on GitHub](https://github.com/elijahtab/SkyPilot)

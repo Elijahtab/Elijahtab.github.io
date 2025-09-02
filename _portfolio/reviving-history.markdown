@@ -1,5 +1,6 @@
 ---
 title: Integrating AI in Recreating Iconic Personalities
+date: 2023-04-01
 layout: single
 permalink: /projects/reviving-history/
 author_profile: true
