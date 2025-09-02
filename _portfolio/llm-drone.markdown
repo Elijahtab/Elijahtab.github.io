@@ -47,7 +47,8 @@ The vision system provides bounding boxes around the target and calculates movem
 Future iterations will integrate GPS and other onboard sensors for expanded autonomous capabilities and more complex tasks.
 
 ## Demo Video
-[![Watch the Demo](/assets/images/drone-demo.png)](https://www.youtube.com/watch?v=iRPw58BgnR8)
-
+<a href="https://www.youtube.com/watch?v=iRPw58BgnR8" target="_blank">
+  <img src="/assets/images/drone-demo.png" alt="Watch the Demo" width="400">
+</a>
 ## Project Link
 👉 [View the code on GitHub](https://github.com/elijahtab/SkyPilot)
