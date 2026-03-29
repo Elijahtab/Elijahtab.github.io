@@ -501,7 +501,12 @@ function setupScreenBoots() {
       screen.dataset.screenLink ||
       host.querySelector(".button--primary, .link-chip--primary")?.getAttribute("href") ||
       "";
+    const autoMode =
+      screen.dataset.screenAuto === "scroll" ||
+      (screen.dataset.screenAuto !== "manual" && !finePointer.matches);
     let revealTimeout = null;
+    let autoRevealObserver = null;
+    let hasAutoRevealed = false;
 
     const reveal = () => {
       window.clearTimeout(revealTimeout);
@@ -537,10 +542,42 @@ function setupScreenBoots() {
       window.location.href = destination;
     };
 
-    host.addEventListener("pointerenter", reveal);
-    host.addEventListener("pointerleave", reset);
-    host.addEventListener("focusin", reveal);
-    host.addEventListener("focusout", reset);
+    if (autoMode) {
+      const playAutoReveal = () => {
+        if (hasAutoRevealed) {
+          return;
+        }
+
+        hasAutoRevealed = true;
+        reveal();
+        autoRevealObserver?.disconnect();
+      };
+
+      if ("IntersectionObserver" in window) {
+        autoRevealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting && entry.intersectionRatio >= 0.35) {
+                playAutoReveal();
+              }
+            });
+          },
+          {
+            threshold: [0.35],
+          }
+        );
+
+        autoRevealObserver.observe(host);
+      } else {
+        playAutoReveal();
+      }
+    } else {
+      host.addEventListener("pointerenter", reveal);
+      host.addEventListener("pointerleave", reset);
+      host.addEventListener("focusin", reveal);
+      host.addEventListener("focusout", reset);
+    }
+
     screen.addEventListener("click", openDestination);
     screen.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") {
