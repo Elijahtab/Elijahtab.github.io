@@ -38,19 +38,20 @@
             <p class="eyebrow">Robotics Project</p>
             <h1>Quad-Pedyr (Quadruped Robot)</h1>
             <p class="page-lead">
-              A split project that spans mechanical design and electronics on one
-              side, then hierarchical RL navigation and obstacle-aware movement
-              on the other.
+              A simulation-first quadruped project centered on hierarchical RL
+              navigation, obstacle-aware locomotion, and the robot platform
+              design that made the system legible end to end.
             </p>
             <p class="page-summary">
-              The project combines hardware planning with a hierarchical RL
-              stack: a robot design track focused on actuators, power, and
-              validation, and a navigation track focused on locomotion,
-              LiDAR-guided control, and goal-reaching behavior.
+              The main throughline is the autonomy stack: hierarchical PPO
+              control, LiDAR-guided observations, and goal-reaching behavior in
+              simulation. From there, the page transitions into the mechanical
+              design work around actuators, power, and staged hardware
+              validation.
             </p>
             <div class="hero-actions">
-              <a class="button button--primary" href="#design">Robot Design</a>
-              <a class="button button--secondary" href="#slam">SLAM / Navigation</a>
+              <a class="button button--primary" href="#slam">SLAM / Navigation</a>
+              <a class="button button--secondary" href="#design">Robot Design</a>
             </div>
           </div>
 
@@ -80,19 +81,19 @@
         <section class="detail-section reveal">
           <div class="detail-section__heading">
             <p class="eyebrow">Project Preview</p>
-            <h2>Jump into the robot design track.</h2>
+            <h2>Jump into the navigation stack first.</h2>
             <p>
-              Use this preview to move straight into the mechanical design work
-              before diving into locomotion and navigation.
+              Use this preview to move straight into the SLAM and locomotion
+              work before transitioning into the underlying robot design track.
             </p>
           </div>
           <div
             class="screen-boot surface"
             data-screen-boot
-            data-screen-link="#design"
+            data-screen-link="#slam"
             role="link"
             tabindex="0"
-            aria-label="Jump to the Quad-Pedyr (Quadruped Robot) design section"
+            aria-label="Jump to the Quad-Pedyr (Quadruped Robot) navigation section"
           >
             <div class="screen-boot__frame">
               <img
@@ -105,7 +106,7 @@
               <div class="screen-boot__scanlines"></div>
               <div class="screen-boot__vignette"></div>
               <div class="screen-boot__hud">
-                <span class="screen-boot__prompt">jump to design</span>
+                <span class="screen-boot__prompt">jump to slam</span>
                 <span class="screen-boot__status">
                   <span class="screen-boot__status-idle">offline</span>
                   <span class="screen-boot__status-arming">static</span>
@@ -116,71 +117,9 @@
           </div>
         </section>
 
-        <section class="detail-section reveal" id="design">
-          <div class="detail-section__heading">
-            <p class="eyebrow">Section One</p>
-            <h2>Robot creation and mechanical design</h2>
-            <p>
-              The design follows a staged development path: validate a single
-              leg in simulation first, then bench test one leg assembly, then
-              scale into a more complete quadruped platform with the right
-              power, sensing, and control backbone.
-            </p>
-          </div>
-
-          <div class="split-callout surface">
-            <div>
-              <img
-                class="detail-image"
-                src="/assets/projects/quadruped/design/images/robot-leg.png"
-                alt="Quadruped robot leg design image"
-              />
-            </div>
-            <div>
-              <p class="eyebrow">Design Document</p>
-              <h3>Quad-Pedyr design breakdown</h3>
-              <p>
-                The design centers on actuator selection, PCB and power
-                planning, and a single-leg validation loop before committing to
-                a full hardware build. That keeps the project grounded in
-                testable milestones instead of a vague end-state robot concept.
-              </p>
-            </div>
-          </div>
-
-          <div class="detail-grid">
-            <article class="detail-card surface">
-              <h3>Electronics Stack</h3>
-              <p>
-                The electrical stack includes MCU control, actuator options, a
-                4S-6S LiPo battery path, fused power distribution, DC-DC rails,
-                and CAN / UART / USB routing between Jetson-class compute and
-                motor drivers.
-              </p>
-            </article>
-            <article class="detail-card surface">
-              <h3>Validation Plan</h3>
-              <p>
-                The initial plan uses Isaac Sim and ROS2 to test a single leg,
-                validate link lengths and joint limits, check actuator torque
-                margins against estimated mass, and trial gait behavior before
-                risking hardware.
-              </p>
-            </article>
-            <article class="detail-card surface">
-              <h3>Mechanical Constraints</h3>
-              <p>
-                Build details include chamfers on bolt holes, actuator mounting
-                constraints, output plate alignment, and practical fastener /
-                standoff clearances that matter once the CAD becomes hardware.
-              </p>
-            </article>
-          </div>
-        </section>
-
         <section class="detail-section reveal" id="slam">
           <div class="detail-section__heading">
-            <p class="eyebrow">Section Two</p>
+            <p class="eyebrow">Section One</p>
             <h2>RL navigation and SLAM-style path guidance</h2>
             <p>
               The navigation stack uses a hierarchical reinforcement learning
@@ -286,6 +225,68 @@
               </video>
               <h3>Failure case / blooper</h3>
               <p>One failure clip is included to show how the navigation stack behaved when the policy broke down under harder conditions.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal" id="design">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Section Two</p>
+            <h2>Robot creation and mechanical design</h2>
+            <p>
+              The autonomy work sat alongside a staged design track: validate a
+              single leg in simulation first, then bench test one leg assembly,
+              then scale into a more complete quadruped platform with the right
+              power, sensing, and control backbone.
+            </p>
+          </div>
+
+          <div class="split-callout surface">
+            <div>
+              <img
+                class="detail-image"
+                src="/assets/projects/quadruped/design/images/robot-leg.png"
+                alt="Quadruped robot leg design image"
+              />
+            </div>
+            <div>
+              <p class="eyebrow">Design Track</p>
+              <h3>Platform planning behind the navigation work</h3>
+              <p>
+                The design centers on actuator selection, PCB and power
+                planning, and a single-leg validation loop before committing to
+                a full hardware build. That keeps the project grounded in
+                testable milestones instead of a vague end-state robot concept.
+              </p>
+            </div>
+          </div>
+
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>Electronics Stack</h3>
+              <p>
+                The electrical stack includes MCU control, actuator options, a
+                4S-6S LiPo battery path, fused power distribution, DC-DC rails,
+                and CAN / UART / USB routing between Jetson-class compute and
+                motor drivers.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Validation Plan</h3>
+              <p>
+                The initial plan uses Isaac Sim and ROS2 to test a single leg,
+                validate link lengths and joint limits, check actuator torque
+                margins against estimated mass, and trial gait behavior before
+                risking hardware.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Mechanical Constraints</h3>
+              <p>
+                Build details include chamfers on bolt holes, actuator mounting
+                constraints, output plate alignment, and practical fastener /
+                standoff clearances that matter once the CAD becomes hardware.
+              </p>
             </article>
           </div>
         </section>
