@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procedural Terrain Generator | Elijah Tabachnik</title>
+    <meta
+      name="description"
+      content="Detailed project page for Elijah Tabachnik's procedural terrain and foliage generator."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Elijah Tabachnik home">
+          <span class="brand-mark">ET</span>
+          <span class="brand-text">Elijah Tabachnik</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/#projects">Projects</a>
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#education">Education</a>
+        </nav>
+      </header>
+
+      <main class="project-page">
+        <section class="page-hero reveal">
+          <div>
+            <a class="breadcrumb" href="/#projects">Back to projects</a>
+            <p class="eyebrow">Procedural Systems</p>
+            <h1>Procedural Terrain + Foliage Generator</h1>
+            <p class="page-lead">
+              A Unity tool for generating natural terrain, biome-aware foliage,
+              and large-scale scenes that still render smoothly.
+            </p>
+            <p class="page-summary">
+              The project focuses on controllable terrain synthesis, biome-aware
+              foliage placement, and performance-conscious rendering for larger
+              strategy-style environments in Unity.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="https://github.com/elijahtab/Real-Time-Strategy-Demo" target="_blank" rel="noreferrer">View GitHub</a>
+              <a class="button button--secondary" href="/#projects">Return to Portfolio</a>
+            </div>
+          </div>
+
+          <aside class="page-panel surface reveal">
+            <img
+              class="detail-image"
+              src="/assets/projects/terrain-generator/images/terrain-6.png"
+              alt="Procedural terrain generator screenshot"
+            />
+          </aside>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Project Preview</p>
+            <h2>Open the terrain generator repository.</h2>
+            <p>
+              The preview links to the codebase behind the terrain synthesis,
+              foliage placement, and rendering workflow.
+            </p>
+          </div>
+          <div
+            class="screen-boot surface"
+            data-screen-boot
+            data-screen-link="https://github.com/elijahtab/Real-Time-Strategy-Demo"
+            role="link"
+            tabindex="0"
+            aria-label="Open the Procedural Terrain Generator repository"
+          >
+            <div class="screen-boot__frame">
+              <img
+                class="screen-boot__image"
+                src="/assets/projects/terrain-generator/images/terrain-6.png"
+                alt="Procedural terrain generator still"
+              />
+              <div class="screen-boot__blank"></div>
+              <div class="screen-boot__static"></div>
+              <div class="screen-boot__scanlines"></div>
+              <div class="screen-boot__vignette"></div>
+              <div class="screen-boot__hud">
+                <span class="screen-boot__prompt">open github repo</span>
+                <span class="screen-boot__status">
+                  <span class="screen-boot__status-idle">offline</span>
+                  <span class="screen-boot__status-arming">static</span>
+                  <span class="screen-boot__status-live">live</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Overview</p>
+            <h2>Procedural generation tuned for strategy-scale scenes.</h2>
+            <p>
+              The generator uses layered Perlin noise to control terrain shape,
+              then applies biome and elevation logic to foliage placement so the
+              map feels coherent instead of randomly cluttered.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>Height maps</h3>
+              <p>Layered Perlin noise drives the terrain profile and creates controllable variation across the map.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Forest clustering</h3>
+              <p>A secondary noise layer controls tree grouping so forests appear intentional rather than uniformly scattered.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Terrain texturing</h3>
+              <p>Water, grass, and mountain zones are derived from elevation thresholds for cleaner environmental transitions.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Scale</h3>
+              <p>Unity LOD optimization keeps the scene responsive even with 15,000+ foliage objects in play.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="split-callout surface">
+            <div>
+              <p class="eyebrow">Implementation</p>
+              <h2>Built around a modular object generation pipeline.</h2>
+            <p>
+              The system centers on an <code>ObjectGenerator</code> script that
+              overlays a secondary noise map over the terrain's height map. That
+              structure makes it easy to tune terrain scale, forest density,
+              chunk size, and foliage type without rewriting the generator each
+              time.
+            </p>
+            </div>
+            <div class="doc-panel surface-plain">
+              <p class="panel-label">Project Link</p>
+              <h3>Codebase</h3>
+              <p>
+                The implementation focuses on reusable terrain and foliage
+                controls, with Unity and C# driving both generation logic and
+                rendering optimization.
+              </p>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="https://github.com/elijahtab/Real-Time-Strategy-Demo" target="_blank" rel="noreferrer">Open GitHub</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Gallery</p>
+            <h2>Visual output from the generator</h2>
+            <p>
+              A sample of terrain states showing elevation changes, foliage
+              density, and the broader look of the generated environment.
+            </p>
+          </div>
+          <div class="gallery-grid">
+            <img class="detail-image" src="/assets/projects/terrain-generator/images/terrain-4.png" alt="Terrain screenshot one" />
+            <img class="detail-image" src="/assets/projects/terrain-generator/images/terrain-3.png" alt="Terrain screenshot two" />
+            <img class="detail-image" src="/assets/projects/terrain-generator/images/terrain-5.png" alt="Terrain screenshot three" />
+            <img class="detail-image" src="/assets/projects/terrain-generator/images/terrain-6.png" alt="Terrain screenshot four" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Open to machine learning, robotics, and applied AI opportunities.</p>
+        <a href="mailto:elijah.tabachnik@gmail.com">elijah.tabachnik@gmail.com</a>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

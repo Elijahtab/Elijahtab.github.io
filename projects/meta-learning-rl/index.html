@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta-Learning RL System | Elijah Tabachnik</title>
+    <meta
+      name="description"
+      content="Detailed project page for Elijah Tabachnik's meta-learning reinforcement learning system for non-stationary environments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Elijah Tabachnik home">
+          <span class="brand-mark">ET</span>
+          <span class="brand-text">Elijah Tabachnik</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/#projects">Projects</a>
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#education">Education</a>
+        </nav>
+      </header>
+
+      <main class="project-page">
+        <section class="page-hero reveal">
+          <div>
+            <a class="breadcrumb" href="/#projects">Back to projects</a>
+            <p class="eyebrow">Research Project</p>
+            <h1>Meta-Learning RL System for Non-Stationary Environments</h1>
+            <p class="page-lead">
+              A reinforcement learning system designed to stay useful after the
+              environment changes, not just while it stays familiar.
+            </p>
+            <p class="page-summary">
+              This work focused on combining dual-agent PPO training with
+              neuromodulation-inspired adaptation so the policy could recover
+              quickly after distribution shifts while resisting catastrophic
+              forgetting over repeated task transitions.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button--primary"
+                href="/assets/projects/meta-learning/docs/combating-catastrophic-forgetting.pdf"
+                target="_blank"
+                rel="noreferrer"
+                >Read Research Paper</a
+              >
+              <a class="button button--secondary" href="/#projects">Return to Portfolio</a>
+            </div>
+          </div>
+
+          <aside class="page-panel surface reveal">
+            <p class="panel-label">Core Outcomes</p>
+            <div class="stat-list">
+              <div>
+                <span class="signal-value">0.73-0.75</span>
+                <span class="signal-label">Success rate after adaptation</span>
+              </div>
+              <div>
+                <span class="signal-value">0.46</span>
+                <span class="signal-label">Baseline comparison point</span>
+              </div>
+              <div>
+                <span class="signal-value">80-95%</span>
+                <span class="signal-label">Repeated recovery after shifts</span>
+              </div>
+              <div>
+                <span class="signal-value">PPO x 2</span>
+                <span class="signal-label">Dual-agent control architecture</span>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Paper Preview</p>
+            <h2>Open the research paper.</h2>
+            <p>
+              This preview links directly to the paper covering the training
+              setup, adaptation strategy, and measured recovery results.
+            </p>
+          </div>
+          <div
+            class="screen-boot surface"
+            data-screen-boot
+            data-screen-link="/assets/projects/meta-learning/docs/combating-catastrophic-forgetting.pdf"
+            role="link"
+            tabindex="0"
+            aria-label="Open the Meta-Learning RL research paper"
+          >
+            <div class="screen-boot__frame">
+              <img
+                class="screen-boot__image"
+                src="/Resources/Meta-Learning/tag_image.png"
+                alt="Meta-learning RL project still"
+              />
+              <div class="screen-boot__blank"></div>
+              <div class="screen-boot__static"></div>
+              <div class="screen-boot__scanlines"></div>
+              <div class="screen-boot__vignette"></div>
+              <div class="screen-boot__hud">
+                <span class="screen-boot__prompt">open research paper</span>
+                <span class="screen-boot__status">
+                  <span class="screen-boot__status-idle">offline</span>
+                  <span class="screen-boot__status-arming">static</span>
+                  <span class="screen-boot__status-live">live</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Why This Matters</p>
+            <h2>Most RL systems break when the world changes.</h2>
+            <p>
+              Non-stationary settings are where a lot of promising RL work falls
+              apart. The goal here was to make policy adaptation a first-class
+              behavior rather than an afterthought, so the agent could recover
+              under changing conditions without resetting to square one.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>Problem</h3>
+              <p>
+                Standard policies often overfit to a single training regime and
+                lose performance sharply after distribution shifts or repeated
+                task changes.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Approach</h3>
+              <p>
+                I structured the system around coordinated PPO agents with
+                adaptation signals inspired by neuromodulation, allowing the
+                policy to respond more fluidly to changing environments.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Target Outcome</h3>
+              <p>
+                Preserve useful prior behavior while recovering quickly enough to
+                stay competitive after each environmental shift.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">System Design</p>
+            <h2>Adaptation was built into the control loop.</h2>
+            <p>
+              The system centered on three design choices that made the
+              adaptation loop more resilient under repeated distribution shifts.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>Dual-Agent PPO</h3>
+              <p>
+                Separate policy responsibilities created a cleaner boundary
+                between stable control behavior and fast adaptation behavior.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Neuromodulation Signals</h3>
+              <p>
+                Modulatory signals were used to help the policy respond to
+                changing conditions without fully overwriting previously learned
+                behavior.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Forgetting Mitigation</h3>
+              <p>
+                Evaluation emphasized whether the system could recover across
+                repeated shifts, not just succeed once in a favorable setting.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="split-callout surface">
+            <div>
+              <p class="eyebrow">Research Link</p>
+              <h2>Paper and highlights</h2>
+              <ul class="timeline-points">
+                <li>Direct access to the paper behind the project.</li>
+                <li>Highlights catastrophic forgetting mitigation in non-stationary RL.</li>
+                <li>Documents the measured jump from a 0.46 baseline to 0.73-0.75 success.</li>
+                <li>Captures the repeated 80-95% recovery behavior after environmental shifts.</li>
+              </ul>
+            </div>
+            <div class="doc-panel surface-plain">
+              <p class="panel-label">Technical Paper</p>
+              <h3>Combating Catastrophic Forgetting</h3>
+              <p>
+                The full paper captures the training setup, evaluation
+                methodology, and adaptation results behind the case study.
+              </p>
+              <div class="project-links">
+                <a
+                  class="link-chip link-chip--primary"
+                  href="/assets/projects/meta-learning/docs/combating-catastrophic-forgetting.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Open PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Open to machine learning, robotics, and applied AI opportunities.</p>
+        <a href="mailto:elijah.tabachnik@gmail.com">elijah.tabachnik@gmail.com</a>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

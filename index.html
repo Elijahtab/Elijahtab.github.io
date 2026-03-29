@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elijah Tabachnik | Machine Learning Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio website for Elijah Tabachnik, a Machine Learning Engineer focused on reinforcement learning, simulation systems, computer vision, and LLM-powered tools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="/#home" aria-label="Elijah Tabachnik home">
+          <span class="brand-mark">ET</span>
+          <span class="brand-text">Elijah Tabachnik</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="/#projects">Projects</a>
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#education">Education</a>
+        </nav>
+
+      </header>
+
+      <main id="home">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Machine Learning Engineer</p>
+            <h1>Elijah Tabachnik</h1>
+            <p class="hero-title">
+              Reinforcement Learning, simulation systems, computer vision, and
+              LLM-powered tools built for real-world deployment.
+            </p>
+            <p class="hero-summary">
+              I design ML systems that bridge research and production, from
+              adaptive PPO architectures in non-stationary environments to
+              simulation-first robotics and applied vision pipelines that
+              reduce operational cost.
+            </p>
+            <ul class="contact-list" aria-label="Contact links">
+              <li>
+                <a href="mailto:elijah.tabachnik@gmail.com">elijah.tabachnik@gmail.com</a>
+              </li>
+              <li>
+                <a href="https://github.com/Elijahtab" target="_blank" rel="noreferrer"
+                  >github.com/Elijahtab</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.google.com/?q=Irvine,+CA"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Irvine, California</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="hero-panel__card surface">
+              <p class="panel-label">Focus</p>
+              <h2>
+                Machine Learning Engineer |
+                <span>Reinforcement Learning &amp; Simulation Systems</span>
+              </h2>
+              <div class="signal-grid">
+                <article>
+                  <span class="signal-value">4</span>
+                  <span class="signal-label">Flagship projects</span>
+                </article>
+                <article>
+                  <span class="signal-value">2</span>
+                  <span class="signal-label">Industry roles</span>
+                </article>
+              </div>
+            </div>
+
+          </aside>
+        </section>
+
+        <section class="section section--projects" id="projects">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Selected Work</p>
+              <h2>Projects across research, robotics, and applied AI.</h2>
+            </div>
+            <p class="section-copy">
+              Each project page includes technical context, outcomes, and
+              supporting material for a closer look.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card project-card--featured surface reveal" data-screen-host>
+              <div class="project-card__header">
+                <div>
+                  <p class="project-kicker">Featured Project</p>
+                  <h3>Meta-Learning RL System for Non-Stationary Environments</h3>
+                </div>
+                <p class="project-metric">0.73-0.75 success vs. 0.46 baseline</p>
+              </div>
+              <p class="project-summary">
+                Engineered a dual-agent PPO system with neuromodulation to adapt
+                under shifting conditions while reducing catastrophic forgetting
+                across task changes.
+              </p>
+              <div
+                class="screen-boot screen-boot--card"
+                data-screen-boot
+                data-screen-link="/projects/meta-learning-rl/"
+                role="link"
+                tabindex="0"
+                aria-label="Open the Meta-Learning RL project page"
+              >
+                <div class="screen-boot__frame">
+                  <img
+                    class="screen-boot__image"
+                    src="/Resources/Meta-Learning/tag_image.png"
+                    alt="Meta-learning RL preview"
+                  />
+                  <div class="screen-boot__blank"></div>
+                  <div class="screen-boot__static"></div>
+                  <div class="screen-boot__scanlines"></div>
+                  <div class="screen-boot__vignette"></div>
+                  <div class="screen-boot__hud">
+                    <span class="screen-boot__prompt">open project page</span>
+                    <span class="screen-boot__status">
+                      <span class="screen-boot__status-idle">offline</span>
+                      <span class="screen-boot__status-arming">static</span>
+                      <span class="screen-boot__status-live">live</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <ul class="project-points">
+                <li>Designed coordinated policy and adaptation loops using PyTorch and PPO.</li>
+                <li>Mitigated catastrophic forgetting in non-stationary training regimes.</li>
+                <li>Repeatedly recovered 80-95% performance after distribution shifts.</li>
+              </ul>
+              <div class="tag-row">
+                <span>PyTorch</span>
+                <span>PPO</span>
+                <span>Python</span>
+                <span>Meta-Learning</span>
+              </div>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="/projects/meta-learning-rl/">View Project</a>
+                <a
+                  class="link-chip"
+                  href="/assets/projects/meta-learning/docs/combating-catastrophic-forgetting.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Research Paper</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card surface reveal" data-screen-host>
+              <div class="project-card__header">
+                <div>
+                  <p class="project-kicker">Robotics</p>
+                  <h3>Quad-Pedyr (Quadruped Robot)</h3>
+                </div>
+              </div>
+              <p class="project-summary">
+                Developed a simulation-first quadruped workflow spanning
+                mechanical design, rigid-body dynamics, locomotion learning, and
+                navigation for sim-to-policy transfer.
+              </p>
+              <div
+                class="screen-boot screen-boot--card"
+                data-screen-boot
+                data-screen-link="/projects/quadruped-robot/"
+                role="link"
+                tabindex="0"
+                aria-label="Open the Quad-Pedyr (Quadruped Robot) project page"
+              >
+                <div class="screen-boot__frame">
+                  <img
+                    class="screen-boot__image"
+                    src="/Resources/Quadruped/tag_image.png"
+                    alt="Quadruped project preview"
+                  />
+                  <div class="screen-boot__blank"></div>
+                  <div class="screen-boot__static"></div>
+                  <div class="screen-boot__scanlines"></div>
+                  <div class="screen-boot__vignette"></div>
+                  <div class="screen-boot__hud">
+                    <span class="screen-boot__prompt">open project page</span>
+                    <span class="screen-boot__status">
+                      <span class="screen-boot__status-idle">offline</span>
+                      <span class="screen-boot__status-arming">static</span>
+                      <span class="screen-boot__status-live">live</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <ul class="project-points">
+                <li>Modeled robot structure and actuation constraints in Fusion 360.</li>
+                <li>Trained RL locomotion policies in Isaac Sim and Isaac Lab.</li>
+                <li>Integrated SLAM-oriented navigation for autonomous traversal.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Fusion 360</span>
+                <span>Isaac Sim</span>
+                <span>Isaac Lab</span>
+                <span>SLAM</span>
+              </div>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="/projects/quadruped-robot/">View Project</a>
+                <a class="link-chip" href="/projects/quadruped-robot/#slam">Design + SLAM</a>
+              </div>
+            </article>
+
+            <article class="project-card surface reveal" data-screen-host>
+              <div class="project-card__header">
+                <div>
+                  <p class="project-kicker">Vision + Agents</p>
+                  <h3>Agentic LLM Drone</h3>
+                </div>
+              </div>
+              <p class="project-summary">
+                Combined perception, speech, and LLM planning into a real-time
+                navigation and tracking system for drone autonomy.
+              </p>
+              <div
+                class="screen-boot screen-boot--card"
+                data-screen-boot
+                data-screen-link="/projects/llm-drone/"
+                role="link"
+                tabindex="0"
+                aria-label="Open the Agentic LLM Drone project page"
+              >
+                <div class="screen-boot__frame">
+                  <img
+                    class="screen-boot__image"
+                    src="/assets/projects/llm-drone/images/drone-demo.png"
+                    alt="Agentic drone preview"
+                  />
+                  <div class="screen-boot__blank"></div>
+                  <div class="screen-boot__static"></div>
+                  <div class="screen-boot__scanlines"></div>
+                  <div class="screen-boot__vignette"></div>
+                  <div class="screen-boot__hud">
+                    <span class="screen-boot__prompt">open project page</span>
+                    <span class="screen-boot__status">
+                      <span class="screen-boot__status-idle">offline</span>
+                      <span class="screen-boot__status-arming">static</span>
+                      <span class="screen-boot__status-live">live</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <ul class="project-points">
+                <li>Used OpenCV and YOLOv8 for live detection and scene understanding.</li>
+                <li>Layered OpenAI API planning with Whisper-based voice interaction.</li>
+                <li>Built a custom vehicle classification dataset for domain-specific tracking.</li>
+              </ul>
+              <div class="tag-row">
+                <span>OpenCV</span>
+                <span>YOLOv8</span>
+                <span>OpenAI API</span>
+                <span>Whisper</span>
+              </div>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="/projects/llm-drone/">View Project</a>
+                <a
+                  class="link-chip"
+                  href="https://www.youtube.com/watch?v=iRPw58BgnR8"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Watch Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card surface reveal" data-screen-host>
+              <div class="project-card__header">
+                <div>
+                  <p class="project-kicker">Graphics / Tools</p>
+                  <h3>Procedural Terrain Generator</h3>
+                </div>
+              </div>
+              <p class="project-summary">
+                Built a performant terrain generation pipeline in Unity with
+                biome-aware foliage systems and scalable rendering.
+              </p>
+              <div
+                class="screen-boot screen-boot--card"
+                data-screen-boot
+                data-screen-link="/projects/terrain-generator/"
+                role="link"
+                tabindex="0"
+                aria-label="Open the Procedural Terrain Generator project page"
+              >
+                <div class="screen-boot__frame">
+                  <img
+                    class="screen-boot__image"
+                    src="/assets/projects/terrain-generator/images/terrain-6.png"
+                    alt="Terrain generator preview"
+                  />
+                  <div class="screen-boot__blank"></div>
+                  <div class="screen-boot__static"></div>
+                  <div class="screen-boot__scanlines"></div>
+                  <div class="screen-boot__vignette"></div>
+                  <div class="screen-boot__hud">
+                    <span class="screen-boot__prompt">open project page</span>
+                    <span class="screen-boot__status">
+                      <span class="screen-boot__status-idle">offline</span>
+                      <span class="screen-boot__status-arming">static</span>
+                      <span class="screen-boot__status-live">live</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <ul class="project-points">
+                <li>Used layered Perlin noise for controllable terrain variation.</li>
+                <li>Distributed biome-specific foliage across large procedural scenes.</li>
+                <li>Optimized rendering to support 15K+ objects with Unity LOD systems.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Unity</span>
+                <span>C#</span>
+                <span>Perlin Noise</span>
+                <span>LOD Optimization</span>
+              </div>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="/projects/terrain-generator/">View Project</a>
+                <a
+                  class="link-chip"
+                  href="https://github.com/elijahtab/Real-Time-Strategy-Demo"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+          </div>
+
+          <div class="archive-grid reveal">
+            <article class="archive-card surface" data-screen-host>
+              <p class="project-kicker">Additional Project</p>
+              <h3>Reviving History</h3>
+              <p>
+                A multimodal AI experiment in historical personality
+                simulation, focused on LLM-driven conversation, voice
+                synthesis, and avatar-based interaction.
+              </p>
+              <div
+                class="screen-boot screen-boot--card"
+                data-screen-boot
+                data-screen-link="/projects/reviving-history/"
+                role="link"
+                tabindex="0"
+                aria-label="Open the Reviving History project page"
+              >
+                <div class="screen-boot__frame">
+                  <img
+                    class="screen-boot__image"
+                    src="/assets/projects/reviving-history/images/jfk.png"
+                    alt="Reviving History preview"
+                  />
+                  <div class="screen-boot__blank"></div>
+                  <div class="screen-boot__static"></div>
+                  <div class="screen-boot__scanlines"></div>
+                  <div class="screen-boot__vignette"></div>
+                  <div class="screen-boot__hud">
+                    <span class="screen-boot__prompt">open project page</span>
+                    <span class="screen-boot__status">
+                      <span class="screen-boot__status-idle">offline</span>
+                      <span class="screen-boot__status-arming">static</span>
+                      <span class="screen-boot__status-live">live</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="/projects/reviving-history/">View Project</a>
+                <a
+                  class="link-chip"
+                  href="https://drive.google.com/file/d/1zJehpogrUMb-EsLDKMKmc5iFWNlGiftH/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Open Demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Experience</p>
+              <h2>Production-minded engineering across ML, APIs, and vision.</h2>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-card surface reveal">
+              <div class="timeline-card__top">
+                <div>
+                  <h3>Software Engineer, Palletton-US</h3>
+                  <p class="timeline-date">Feb 2025 - Nov 2025</p>
+                </div>
+                <span class="timeline-badge">Industry</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Built an LLM-powered data ingestion pipeline for faster operational intake.</li>
+                <li>Deployed a FastAPI microservice with Docker for production-ready serving.</li>
+                <li>
+                  Shipped a Swift computer vision classification pipeline that processed
+                  3,000+ products and saved $15K+ in labor costs.
+                </li>
+              </ul>
+            </article>
+
+            <article class="timeline-card surface reveal">
+              <div class="timeline-card__top">
+                <div>
+                  <h3>Software Engineer Intern, Leucadia Therapeutics</h3>
+                  <p class="timeline-date">Jun 2024 - Jan 2025</p>
+                  <p class="timeline-date">
+                    <a href="https://www.leucadiatx.com/" target="_blank" rel="noreferrer"
+                      >leucadiatx.com</a
+                    >
+                  </p>
+                </div>
+                <span class="timeline-badge">Health Tech</span>
+              </div>
+              <ul class="timeline-points">
+                <li>
+                  Built a Unity conversational AI avatar with OpenAI and LLaMA integration.
+                </li>
+                <li>
+                  Designed HIPAA-compliant cloud architecture on AWS and Azure.
+                </li>
+                <li>
+                  Connected Flask services, REST APIs, and SQL backends to support secure
+                  application workflows.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Capabilities</p>
+              <h2>Technical strengths across ML, simulation, and systems.</h2>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card surface reveal">
+              <h3>Languages</h3>
+              <div class="tag-row">
+                <span>Python</span>
+                <span>C++</span>
+                <span>C#</span>
+              </div>
+            </article>
+
+            <article class="skill-card surface reveal">
+              <h3>Machine Learning</h3>
+              <div class="tag-row">
+                <span>PyTorch</span>
+                <span>OpenCV</span>
+                <span>YOLOv8</span>
+                <span>Computer Vision</span>
+                <span>Reinforcement Learning</span>
+              </div>
+            </article>
+
+            <article class="skill-card surface reveal">
+              <h3>Robotics &amp; Simulation</h3>
+              <div class="tag-row">
+                <span>Isaac Sim</span>
+                <span>Isaac Lab</span>
+                <span>ROS2</span>
+              </div>
+            </article>
+
+            <article class="skill-card surface reveal">
+              <h3>CAD</h3>
+              <div class="tag-row">
+                <span>Fusion 360</span>
+              </div>
+            </article>
+
+            <article class="skill-card surface reveal">
+              <h3>Tools &amp; Frameworks</h3>
+              <div class="tag-row">
+                <span>Docker</span>
+                <span>Git</span>
+                <span>Unity</span>
+                <span>FastAPI</span>
+                <span>Flask</span>
+              </div>
+            </article>
+
+            <article class="skill-card surface reveal">
+              <h3>Cloud</h3>
+              <div class="tag-row">
+                <span>AWS</span>
+                <span>Azure</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="education">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Education</p>
+              <h2>Academic foundation in applied machine learning and systems.</h2>
+            </div>
+          </div>
+
+          <article class="education-card surface reveal">
+            <div>
+              <h3>University of California, Irvine</h3>
+              <p class="education-degree">B.S. in Computer Science, Expected Jun 2026</p>
+            </div>
+            <div class="education-meta">
+              <p><strong>GPA:</strong> 3.4</p>
+              <p>
+                <strong>Coursework:</strong> Machine Learning, Artificial Intelligence,
+                Algorithms &amp; Data Structures, Operating Systems
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Open to machine learning, robotics, and applied AI opportunities.</p>
+        <a href="mailto:elijah.tabachnik@gmail.com">elijah.tabachnik@gmail.com</a>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

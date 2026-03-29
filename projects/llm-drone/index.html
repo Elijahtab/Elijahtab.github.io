@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agentic LLM Drone | Elijah Tabachnik</title>
+    <meta
+      name="description"
+      content="Detailed project page for Elijah Tabachnik's agentic LLM drone system."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Elijah Tabachnik home">
+          <span class="brand-mark">ET</span>
+          <span class="brand-text">Elijah Tabachnik</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/#projects">Projects</a>
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#education">Education</a>
+        </nav>
+      </header>
+
+      <main class="project-page">
+        <section class="page-hero reveal">
+          <div>
+            <a class="breadcrumb" href="/#projects">Back to projects</a>
+            <p class="eyebrow">Autonomy Project</p>
+            <h1>Agentic LLM Autonomous Drone</h1>
+            <p class="page-lead">
+              A conversational drone control stack that converts spoken intent
+              into either direct flight commands or continuous target tracking.
+            </p>
+            <p class="page-summary">
+              The project combines voice input, LLM routing, and real-time
+              computer vision into a control loop that can either execute
+              discrete drone commands or maintain continuous target tracking.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="https://www.youtube.com/watch?v=iRPw58BgnR8" target="_blank" rel="noreferrer">Watch Demo</a>
+              <a class="button button--secondary" href="https://github.com/elijahtab/SkyPilot" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </div>
+
+          <aside class="page-panel surface reveal">
+            <img
+              class="detail-image"
+              src="/assets/projects/llm-drone/images/drone-demo.png"
+              alt="Agentic LLM drone demo"
+            />
+          </aside>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Demo Preview</p>
+            <h2>Open the autonomous drone demo.</h2>
+            <p>
+              The preview links to a walkthrough of the voice interface, intent
+              routing, and live tracking behavior.
+            </p>
+          </div>
+          <div
+            class="screen-boot surface"
+            data-screen-boot
+            data-screen-link="https://www.youtube.com/watch?v=iRPw58BgnR8"
+            role="link"
+            tabindex="0"
+            aria-label="Open the Agentic LLM Drone demo"
+          >
+            <div class="screen-boot__frame">
+              <img
+                class="screen-boot__image"
+                src="/assets/projects/llm-drone/images/drone-demo.png"
+                alt="Agentic LLM drone project still"
+              />
+              <div class="screen-boot__blank"></div>
+              <div class="screen-boot__static"></div>
+              <div class="screen-boot__scanlines"></div>
+              <div class="screen-boot__vignette"></div>
+              <div class="screen-boot__hud">
+                <span class="screen-boot__prompt">open demo video</span>
+                <span class="screen-boot__status">
+                  <span class="screen-boot__status-idle">offline</span>
+                  <span class="screen-boot__status-arming">static</span>
+                  <span class="screen-boot__status-live">live</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Overview</p>
+            <h2>Natural language to autonomous action.</h2>
+            <p>
+              The system uses voice transcription, LLM intent parsing, and a
+              vision loop to decide whether the drone should execute a discrete
+              movement command or enter a continuous tracking mode.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>Voice interface</h3>
+              <p>
+                Whisper transcribes commands so the drone can be controlled through conversational language instead of a rigid command console.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Agentic parsing</h3>
+              <p>
+                An OpenAI-powered agent routes intent into either discrete flight actions or longer-running follow behavior.
+              </p>
+            </article>
+            <article class="detail-card surface">
+              <h3>Continuous tracking</h3>
+              <p>
+                YOLOv8 and OpenCV work together to maintain a target lock and recover through occlusion during follow mode.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="detail-section__heading">
+            <p class="eyebrow">Pipeline</p>
+            <h2>Four-part control loop</h2>
+            <p>
+              The architecture is easiest to understand as four cooperating
+              scripts that hand control from transcription to intent parsing,
+              then into flight execution or follow behavior.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card surface">
+              <h3>voice_transcriber.py</h3>
+              <p>Handles speech-to-text using Whisper.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>openapi.py</h3>
+              <p>Uses an OpenAI-backed agent and custom tools to parse user intent.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>drone_controller.py</h3>
+              <p>Executes discrete movement instructions like turns, altitude changes, and repositioning.</p>
+            </article>
+            <article class="detail-card surface">
+              <h3>skytrack.py</h3>
+              <p>Runs the live YOLOv8 and OpenCV tracking loop for follow mode.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="detail-section reveal">
+          <div class="split-callout surface">
+            <div>
+              <p class="eyebrow">Engineering challenges</p>
+              <h2>Real-time coordination mattered as much as model choice.</h2>
+              <ul class="timeline-points">
+                <li>Multi-threading was needed for heartbeat, video feed, command routing, and continuous control.</li>
+                <li>Smooth tracking required tuning acceleration and update timing to avoid overshoot.</li>
+                <li>Vision design balanced OpenCV speed against YOLOv8 robustness for re-acquiring targets.</li>
+                <li>Voice isolation was important to reduce background noise and false triggers.</li>
+              </ul>
+            </div>
+            <div class="doc-panel surface-plain">
+              <p class="panel-label">Project Links</p>
+              <h3>Demo and repository</h3>
+              <p>
+                The live demo and source repository show the voice-to-action
+                loop, tracking behavior, and overall control stack in full.
+              </p>
+              <div class="project-links">
+                <a class="link-chip link-chip--primary" href="https://www.youtube.com/watch?v=iRPw58BgnR8" target="_blank" rel="noreferrer">Open Demo</a>
+                <a class="link-chip" href="https://github.com/elijahtab/SkyPilot" target="_blank" rel="noreferrer">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Open to machine learning, robotics, and applied AI opportunities.</p>
+        <a href="mailto:elijah.tabachnik@gmail.com">elijah.tabachnik@gmail.com</a>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
