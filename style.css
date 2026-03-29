@@ -1115,6 +1115,10 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
     transform 140ms ease;
 }
 
+.screen-boot__status-arming {
+  display: none;
+}
+
 .screen-boot__status-arming,
 .screen-boot__status-live {
   opacity: 0;
@@ -1130,14 +1134,12 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
   opacity: 0.18;
 }
 
-.screen-boot.is-arming .screen-boot__status-idle,
 .screen-boot.is-revealed .screen-boot__status-idle,
 .screen-boot.is-revealed .screen-boot__status-arming {
   opacity: 0;
   transform: translateY(-4px);
 }
 
-.screen-boot.is-arming .screen-boot__status-arming,
 .screen-boot.is-revealed .screen-boot__status-live {
   opacity: 1;
   transform: translateY(0);
