@@ -1107,7 +1107,6 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
 }
 
 .screen-boot__status-idle,
-.screen-boot__status-arming,
 .screen-boot__status-live {
   grid-area: 1 / 1;
   transition:
@@ -1115,11 +1114,6 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
     transform 140ms ease;
 }
 
-.screen-boot__status-arming {
-  display: none;
-}
-
-.screen-boot__status-arming,
 .screen-boot__status-live {
   opacity: 0;
   transform: translateY(4px);
@@ -1134,8 +1128,7 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
   opacity: 0.18;
 }
 
-.screen-boot.is-revealed .screen-boot__status-idle,
-.screen-boot.is-revealed .screen-boot__status-arming {
+.screen-boot.is-revealed .screen-boot__status-idle {
   opacity: 0;
   transform: translateY(-4px);
 }
