@@ -399,11 +399,29 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
   margin-top: 2rem;
 }
 
-.signal-grid article {
+.signal-card {
+  display: block;
   padding: 1rem;
   border-radius: var(--radius-md);
   background: color-mix(in srgb, var(--surface-strong) 82%, transparent);
   border: 1px solid var(--surface-border);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.signal-card:hover,
+.signal-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 34%, var(--surface-border));
+}
+
+.signal-card:focus-visible {
+  outline: 1px solid color-mix(in srgb, var(--accent) 44%, var(--surface-border));
+  outline-offset: 3px;
 }
 
 .signal-value {
@@ -1434,7 +1452,7 @@ body::after {
 }
 
 .theme-toggle__track,
-.signal-grid article,
+.signal-card,
 .tag-row span,
 .timeline-badge,
 .link-chip,
